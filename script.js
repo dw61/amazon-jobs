@@ -9,6 +9,8 @@ google.setOnLoadCallback(drawChart7);
 google.setOnLoadCallback(drawChart8);
 google.setOnLoadCallback(drawChart9);
 google.setOnLoadCallback(drawChart10);
+
+
 function drawChart1() {
     var data = google.visualization.arrayToDataTable([
         ['Team', 'Number of Openings'],
@@ -229,7 +231,7 @@ function drawChart6() {
         ['Team', 'Number of Openings'],
         ['Operations Technology', 223],
         ['AWS', 207],
-        
+
         ['Amazon Alexa', 73],
         ['Amazon Transportation Services', 42],
         ['Amazon Devices', 35],
@@ -255,7 +257,7 @@ function drawChart6() {
 function drawChart7() {
     var data = google.visualization.arrayToDataTable([
         ['Team', 'Number of Openings'],
-        
+
         ['AWS', 324],
         ['Amazon Alexa', 19],
         ['HR', 8],
