@@ -10,6 +10,11 @@ google.setOnLoadCallback(drawChart8);
 google.setOnLoadCallback(drawChart9);
 google.setOnLoadCallback(drawChart10);
 
+import fetch from "node-fetch";
+
+fetch('https://raw.githubusercontent.com/dw61/amazon-jobs/main/data.json')
+  .then(response => response.json())
+  .then(json => console.log(json))
 
 function drawChart1() {
     var data = google.visualization.arrayToDataTable([

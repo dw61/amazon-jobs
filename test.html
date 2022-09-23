@@ -1,36 +1,26 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Read Text File</title>
+    <title>Test</title>
 </head>
 
 <body>
-    <input type="file" name="inputfile"
-            id="inputfile">
-    <br>
 
-    <pre id="output"></pre>
+    <p id="demo">999</p>
 
-    <script type="text/javascript">
+    <!-- <script>
+        // import fetch;
 
+        var responseText;
 
-        fetch('http://s3.amazonaws.com/whattfisabucket/index.html')
-          .then(response => response.text())
-          .then(text => console.log(text))
+        fetch('https://raw.githubusercontent.com/dw61/amazon-jobs/main/data.json')
+        .then(response => response.text())
+        .then(responseText => {
+              document.getElementById("demo").innerHTML = responseText;
+        });
 
-        document.getElementById('inputfile')
-            .addEventListener('change', function() {
-
-            var fr=new FileReader();
-            fr.onload=function(){
-                document.getElementById('output')
-                        .textContent=fr.result;
-            }
-
-            fr.readAsText(this.files[0]);
-        })
-    </script>
+    </script> -->
+    <!-- <p id="demo"> 4</p> -->
+    <script src="test.js"></script>
 </body>
-
 </html>
