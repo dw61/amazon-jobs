@@ -1,6 +1,5 @@
 google.load("visualization", "1", {packages:["corechart"]});
 google.setOnLoadCallback(drawChart0);
-google.setOnLoadCallback(drawChart1);
 google.setOnLoadCallback(drawChart3);
 google.setOnLoadCallback(drawChart4);
 google.setOnLoadCallback(drawChart5);
@@ -10,49 +9,37 @@ google.setOnLoadCallback(drawChart8);
 google.setOnLoadCallback(drawChart9);
 google.setOnLoadCallback(drawChart10);
 
-var openings;
+var hcc = {"Seattle": [
+    ['Team', 'Number of Openings'],
+    ['AWS', 127],
+    ['Amazon Alexa', 494],
+    ['Operations Technology', 260],
+    ['eCommerce Foundation', 228],
+    ['Amazon Devices', 192],
+    ['Amazon Entertainment', 182],
+    ['HR', 164]]}
+// var hc = [
+//     ['Team', 'Number of Openings'],
+//     ['AWS', 3127],
+//     ['Amazon Alexa', 494],
+//     ['Operations Technology', 260],
+//     ['eCommerce Foundation', 228],
+//     ['Amazon Devices', 192],
+//     ['Amazon Entertainment', 182],
+//     ['HR', 164]]
+
+var headcounts;
 
 fetch('https://raw.githubusercontent.com/dw61/amazon-jobs/main/data.json')
-.then(response => response.text())
-.then(openings => {
-      document.getElementById("demo").innerHTML = openings;
+.then(response => response.json())
+.then(headcounts => {
+  google.setOnLoadCallback(() => drawChart1(hcc["Seattle"]));
+  document.getElementById("demo").innerHTML = headcounts["Seattle"]["Amazon Web Services"];
 });
 
-function drawChart1() {
-    var data = google.visualization.arrayToDataTable([
-        ['Team', 'Number of Openings'],
-        ['AWS', 3127],
-        ['Amazon Alexa', 494],
-        ['Operations Technology', 260],
-        ['eCommerce Foundation', 228],
-        ['Amazon Devices', 192],
-        ['Amazon Entertainment', 182],
-        ['HR', 164],
-        ['Consumer Engagement', 162],
-        ['Amazon Go', 130],
-        ['Consumer Payments', 125],
-        ['Advertising', 118],
-        ['Finance and Global Business Services', 97],
-        ['Kindle Content', 71],
-        ['Customer Trust and Partner Support', 62],
-        ['Marketplace', 62],
-        ['Selling Partner Services', 49],
-        ['Subsidiaries', 45],
-        ['Digital Entertainment', 38],
-        ['Fulfillment and Operations', 31],
-        ['Amazon Care', 29],
-        ['Amazonian Experience and Technology', 29],
-        ['Amazon Books', 23],
-        ['Amazon Fresh', 19],
-        ['Prime Video', 13],
-        ['Amazon Diagnostics', 12],
-        ['Business and Corporate Development', 8],
-        ['Customer Service and Business Trends', 5],
-        ['Legal', 4],
-        ['Student Programs', 4],
-        ['Amazon Customer Service', 2],
-        ['Amazon Transportation Services', 1]
-      ]);
+function drawChart1(hc) {
+
+  var data = google.visualization.arrayToDataTable(hc);
 
   var options = {
     title: 'Seattle',
@@ -95,7 +82,7 @@ function drawChart2() {
 
   var options = {
     title: 'Arlington',
-    is3D: 'true'
+    is3D: 'false'
  };
 
   var chart = new google.visualization.PieChart(document.getElementById('chart_div2'));
