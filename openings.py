@@ -27,7 +27,7 @@ city = "Seattle"
 data[city] = []
 for team in teams:
     organization, _, headcount, _, _ = team.strings
-    data[city].append([organization, headcount.replace("+", "")])
+    data[city].append([organization, int(headcount.replace("+", ""))])
 
 with open("data.json", "w") as f:
     json.dump(data, f)

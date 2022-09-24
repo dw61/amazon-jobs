@@ -10,14 +10,16 @@ google.setOnLoadCallback(drawChart9);
 google.setOnLoadCallback(drawChart10);
 
 var hcc = {"Seattle": [
-    ['Team', 'Number of Openings'],
-    ['AWS', 127],
+    ['AWS', 3127],
     ['Amazon Alexa', 494],
     ['Operations Technology', 260],
     ['eCommerce Foundation', 228],
     ['Amazon Devices', 192],
     ['Amazon Entertainment', 182],
     ['HR', 164]]}
+
+// hcc["Seattle"] += [['HRR', 1640]]
+// hcc["Seattle"].splice(0, 0, ['Team', 'Number of Openings'])
 // var hc = [
 //     ['Team', 'Number of Openings'],
 //     ['AWS', 3127],
@@ -28,19 +30,19 @@ var hcc = {"Seattle": [
 //     ['Amazon Entertainment', 182],
 //     ['HR', 164]]
 
-var headcounts;
+var openings;
 
 fetch('https://raw.githubusercontent.com/dw61/amazon-jobs/main/data.json')
 .then(response => response.json())
-.then(headcounts => {
-  google.setOnLoadCallback(() => drawChart1(hcc["Seattle"]));
-  document.getElementById("demo").innerHTML = headcounts["Seattle"]["Amazon Web Services"];
+.then(openings => {
+  google.setOnLoadCallback(() => drawChart1([['Team', 'Headcounts'], ...hcc["Seattle"]]));
+  document.getElementById("demo").innerHTML = [['Team', 'Headcounts'], ...openings["Seattle"]];
+  console.log([['Team', 'Head Counts'], ...openings["Seattle"]]);
 });
 
 function drawChart1(hc) {
 
   var data = google.visualization.arrayToDataTable(hc);
-
   var options = {
     title: 'Seattle',
     is3D: 'true'
