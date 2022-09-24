@@ -1,7 +1,7 @@
-import fetch from "node-fetch";
+var responseText;
 
-let response = await fetch('https://raw.githubusercontent.com/dw61/amazon-jobs/main/data.json');
-let responseText = await response.text();
-
-console.log(responseText);
-// document.getElementById("demo").innerHTML = responseText;
+fetch('https://raw.githubusercontent.com/dw61/amazon-jobs/main/data.json')
+.then(response => response.text())
+.then(responseText => {
+      document.getElementById("demo").innerHTML = responseText;
+});
