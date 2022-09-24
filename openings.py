@@ -3,31 +3,36 @@ import bs4
 import selenium
 from selenium import webdriver
 
-url = "https://www.amazon.jobs/en/search?&category%5B%5D=software-development&job_type%5B%5D=Full-Time&country%5B%5D=USA&city%5B%5D=Seattle"
+url = "https://www.amazon.jobs/en/search?&category%5B%5D=software-development&job_type%5B%5D=Full-Time&country%5B%5D=USA&city%5B%5D={CITY}"
 moreTeamsButton = "#main-content > div.search-page > div > div > div.container > content > div > div > div.d-none.d-md-block.col-sm-4.search-page-filter > div.search-filters > div:nth-child(9) > div > div.show-all > fieldset > button"
-data = {}
+cities = [
+    "Seattle",
+    "New York"
+]
+openings = {}
 
-driver = webdriver.Safari()
-driver.get(url)
-button = driver.find_element("css selector", moreTeamsButton)
+for city in cities:
 
-while True:
-    try:
-        button.click()
-    except selenium.common.exceptions.StaleElementReferenceException:
-        break # no more teams to load
+    driver = webdriver.Safari()
+    driver.get(url.replace("{CITY}", city.replace(" ", "%20")))
+    button = driver.find_element("css selector", moreTeamsButton)
 
-soup = bs4.BeautifulSoup(driver.page_source, 'html.parser')
-driver.quit()
+    while True:
+        try:
+            button.click()
+        except selenium.common.exceptions.StaleElementReferenceException:
+            break # no more teams to load
 
-teams = soup.find_all("button", {"name":"desktopFilter_business_category"})
+    soup = bs4.BeautifulSoup(driver.page_source, 'html.parser')
+    driver.quit()
 
-# AWS Seattle Data not accurate
-city = "Seattle"
-data[city] = []
-for team in teams:
-    organization, _, headcount, _, _ = team.strings
-    data[city].append([organization, int(headcount.replace("+", ""))])
+    teams = soup.find_all("button", {"name":"desktopFilter_business_category"})
 
-with open("data.json", "w") as f:
-    json.dump(data, f)
+    # AWS Seattle openings not accurate
+    openings[city] = []
+    for team in teams:
+        organization, _, opening, _, _ = team.strings
+        openings[city].append([organization, int(opening.replace("+", ""))])
+
+with open("openings.json", "w") as f:
+    json.dump(openings, f)
