@@ -24,10 +24,10 @@ teams = soup.find_all("button", {"name":"desktopFilter_business_category"})
 
 # AWS Seattle Data not accurate
 city = "Seattle"
-data[city] = []
+data[city] = {}
 for team in teams:
     organization, _, headCount, _, _ = team.strings
-    data[city].append({organization: int(headCount.replace("+", ""))})
+    data[city][organization] = int(headCount.replace("+", ""))
 
 with open("data.json", "w") as f:
     json.dump(data, f)

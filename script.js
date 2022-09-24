@@ -13,9 +13,9 @@ google.setOnLoadCallback(drawChart10);
 var openings;
 
 fetch('https://raw.githubusercontent.com/dw61/amazon-jobs/main/data.json')
-.then(response => response.json())
+.then(response => response.text())
 .then(openings => {
-      document.getElementById("demo").innerHTML = openings["4"];
+      document.getElementById("demo").innerHTML = openings;
 });
 
 function drawChart1() {
