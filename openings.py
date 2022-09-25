@@ -7,7 +7,8 @@ url = "https://www.amazon.jobs/en/search?&category%5B%5D=software-development&jo
 moreTeamsButton = "#main-content > div.search-page > div > div > div.container > content > div > div > div.d-none.d-md-block.col-sm-4.search-page-filter > div.search-filters > div:nth-child(9) > div > div.show-all > fieldset > button"
 cities = [
     "Seattle",
-    "New York"
+    "New York",
+    "Arlington"
 ]
 openings = {}
 
