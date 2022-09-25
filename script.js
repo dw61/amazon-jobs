@@ -1,40 +1,54 @@
 google.load("visualization", "1", {packages:["corechart"]});
-google.setOnLoadCallback(drawChart0);
-google.setOnLoadCallback(drawChart3);
-google.setOnLoadCallback(drawChart4);
-google.setOnLoadCallback(drawChart5);
-google.setOnLoadCallback(drawChart6);
-google.setOnLoadCallback(drawChart7);
-google.setOnLoadCallback(drawChart8);
-google.setOnLoadCallback(drawChart9);
-google.setOnLoadCallback(drawChart10);
 
-var openings;
-
-fetch('https://raw.githubusercontent.com/dw61/amazon-jobs/main/data.json')
+fetch('https://raw.githubusercontent.com/dw61/amazon-jobs/main/openings.json')
 .then(response => response.json())
 .then(openings => {
-  google.setOnLoadCallback(() => drawChart1([['Team', 'Openings'], ...openings["Seattle"]]));
+
+  let cities = Object.keys(openings);
+  let htmlElements = "";
+
+  for (let i = 0; i < cities.length; i += 2) {
+    htmlElements += `
+    <div class="row">
+      <div class="clearfix"></div>
+      <div class="col-lg-6">
+        <div id="${cities[i]}" class="chart"></div>
+      </div>
+      <div class="col-lg-6">
+        <div id="${cities[i+1]}" class="chart"></div>
+      </div>
+    </div>`;
+  }
+  document.body.innerHTML += htmlElements;
+
+  google.setOnLoadCallback(drawChart0);
+  for (let city in openings) {
+    google.setOnLoadCallback(() => drawChart(city, openings[city]));
+  }
+
+  // google.setOnLoadCallback(drawChart0);
+  // google.setOnLoadCallback(() => drawChart(city, openings[city]));
+  google.setOnLoadCallback(drawChart2);
+  // google.setOnLoadCallback(drawChart3);
+  // google.setOnLoadCallback(drawChart4);
+  // google.setOnLoadCallback(drawChart5);
+  // google.setOnLoadCallback(drawChart6);
+  // google.setOnLoadCallback(drawChart7);
+  // google.setOnLoadCallback(drawChart8);
+  // google.setOnLoadCallback(drawChart9);
+  // google.setOnLoadCallback(drawChart10);
   // document.getElementById("demo").innerHTML = [['Team', 'Headcounts'], ...openings["Seattle"]];
   // console.log([['Team', 'Head Counts'], ...openings["Seattle"]]);
 });
 
-function drawChart1(hc) {
-
-  var data = google.visualization.arrayToDataTable(hc);
-  var options = {
-    title: 'Seattle',
-    is3D: 'true'
- };
-
-var chart = new google.visualization.PieChart(document.getElementById('chart_div1'));
-  chart.draw(data, options);
+function drawChart(city, openings) {
+  let data = google.visualization.arrayToDataTable([['Team', 'Openings'], ...openings]);
+  let chart = new google.visualization.PieChart(document.getElementById(city));
+  chart.draw(data, {title: city, is3D: true});
 }
 
-google.load("visualization", "1", {packages:["corechart"]});
-google.setOnLoadCallback(drawChart2);
 function drawChart2() {
-    var data = google.visualization.arrayToDataTable([
+    let data = google.visualization.arrayToDataTable([
         ['Team', 'Number of Openings'],
         ['AWS', 588],
         ['Amazon Alexa', 95],
@@ -61,19 +75,19 @@ function drawChart2() {
         ['Business and Corporate Development', 1]
       ]);
 
-  var options = {
+  let options = {
     title: 'Arlington',
     is3D: 'false'
  };
 
-  var chart = new google.visualization.PieChart(document.getElementById('chart_div2'));
+  let chart = new google.visualization.PieChart(document.getElementById('chart2'));
   chart.draw(data, options);
 }
 
 function drawChart0() {
-    var total = 15300;
-    var given = 6335 + 1232 + 902 + 859 + 722 + 635 + 405 + 314 + 284 + 279;
-    var data = google.visualization.arrayToDataTable([
+    let total = 15300;
+    let given = 6335 + 1232 + 902 + 859 + 722 + 635 + 405 + 314 + 284 + 279;
+    let data = google.visualization.arrayToDataTable([
         ['City', 'Number of Openings'],
         ['Seattle', 6335],
         ['Arlington', 1232],
@@ -88,18 +102,18 @@ function drawChart0() {
         ['Other', total - given]
       ]);
 
-  var options = {
+  let options = {
     title: '10 Largest Cities',
     is3D: 'true'
  };
 
-var chart = new google.visualization.PieChart(document.getElementById('chart_div0'));
+let chart = new google.visualization.PieChart(document.getElementById('chart0'));
   chart.draw(data, options);
 }
 
 
 function drawChart3() {
-    var data = google.visualization.arrayToDataTable([
+    let data = google.visualization.arrayToDataTable([
         ['Team', 'Number of Openings'],
         ['AWS', 176],
         ['Operations Technology', 122],
@@ -125,17 +139,17 @@ function drawChart3() {
         ['Finance and Global Business Services', 2]
       ]);
 
-  var options = {
+  let options = {
     title: 'Austin',
     is3D: 'true'
  };
 
-  var chart = new google.visualization.PieChart(document.getElementById('chart_div3'));
+  let chart = new google.visualization.PieChart(document.getElementById('chart3'));
   chart.draw(data, options);
 }
 
 function drawChart4() {
-    var data = google.visualization.arrayToDataTable([
+    let data = google.visualization.arrayToDataTable([
         ['Team', 'Number of Openings'],
         ['AWS', 296],
         ['Advertising', 291],
@@ -162,17 +176,17 @@ function drawChart4() {
         ['Prime Video', 1]
       ]);
 
-  var options = {
+  let options = {
     title: 'New York',
     is3D: 'true'
  };
 
-  var chart = new google.visualization.PieChart(document.getElementById('chart_div4'));
+  let chart = new google.visualization.PieChart(document.getElementById('chart4'));
   chart.draw(data, options);
 }
 
 function drawChart5() {
-    var data = google.visualization.arrayToDataTable([
+    let data = google.visualization.arrayToDataTable([
         ['Team', 'Number of Openings'],
         ['Amazon Devices', 216],
         ['Amazon Alexa', 211],
@@ -192,17 +206,17 @@ function drawChart5() {
         ['Amazon Entertainment', 1]
       ]);
 
-  var options = {
+  let options = {
     title: 'Sunnyvale',
     is3D: 'true'
  };
 
-  var chart = new google.visualization.PieChart(document.getElementById('chart_div5'));
+  let chart = new google.visualization.PieChart(document.getElementById('chart5'));
   chart.draw(data, options);
 }
 
 function drawChart6() {
-    var data = google.visualization.arrayToDataTable([
+    let data = google.visualization.arrayToDataTable([
         ['Team', 'Number of Openings'],
         ['Operations Technology', 223],
         ['AWS', 207],
@@ -220,17 +234,17 @@ function drawChart6() {
         ['Consumer Engagement', 1]
       ]);
 
-  var options = {
+  let options = {
     title: 'Bellevue',
     is3D: 'true'
  };
 
-  var chart = new google.visualization.PieChart(document.getElementById('chart_div6'));
+  let chart = new google.visualization.PieChart(document.getElementById('chart6'));
   chart.draw(data, options);
 }
 
 function drawChart7() {
-    var data = google.visualization.arrayToDataTable([
+    let data = google.visualization.arrayToDataTable([
         ['Team', 'Number of Openings'],
 
         ['AWS', 324],
@@ -243,17 +257,17 @@ function drawChart7() {
         ['Amazon Devices', 2]
       ]);
 
-  var options = {
+  let options = {
     title: 'Boston',
     is3D: 'true'
  };
 
-  var chart = new google.visualization.PieChart(document.getElementById('chart_div7'));
+  let chart = new google.visualization.PieChart(document.getElementById('chart7'));
   chart.draw(data, options);
 }
 
 function drawChart8() {
-    var data = google.visualization.arrayToDataTable([
+    let data = google.visualization.arrayToDataTable([
         ['Team', 'Number of Openings'],
         ['Amazon Alexa', 102],
         ['Amazon Devices', 76],
@@ -270,17 +284,17 @@ function drawChart8() {
         ['HR', 2]
       ]);
 
-  var options = {
+  let options = {
     title: 'Irvine',
     is3D: 'true'
  };
 
-  var chart = new google.visualization.PieChart(document.getElementById('chart_div8'));
+  let chart = new google.visualization.PieChart(document.getElementById('chart8'));
   chart.draw(data, options);
 }
 
 function drawChart9() {
-    var data = google.visualization.arrayToDataTable([
+    let data = google.visualization.arrayToDataTable([
         ['Team', 'Number of Openings'],
         ['Subsidiaries', 73],
         ['Amazon Entertainment', 70],
@@ -300,17 +314,17 @@ function drawChart9() {
         ['Kindle Content', 1]
       ]);
 
-  var options = {
+  let options = {
     title: 'San Francisco',
     is3D: 'true'
  };
 
-  var chart = new google.visualization.PieChart(document.getElementById('chart_div9'));
+  let chart = new google.visualization.PieChart(document.getElementById('chart9'));
   chart.draw(data, options);
 }
 
 function drawChart10() {
-    var data = google.visualization.arrayToDataTable([
+    let data = google.visualization.arrayToDataTable([
         ['Team', 'Number of Openings'],
         ['AWS', 265],
         ['Operations Technology', 5],
@@ -321,18 +335,18 @@ function drawChart10() {
         ['Marketplace', 1]
       ]);
 
-  var options = {
+  let options = {
     title: 'East Palo Alto',
     is3D: 'true'
  };
 
-  var chart = new google.visualization.PieChart(document.getElementById('chart_div10'));
+  let chart = new google.visualization.PieChart(document.getElementById('chart10'));
   chart.draw(data, options);
 }
 
 $(window).resize(function(){
   drawChart0();
-  drawChart1();
+  drawChart();
   drawChart2();
   drawChart3();
   drawChart4();
