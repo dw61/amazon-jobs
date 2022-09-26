@@ -1,33 +1,5 @@
 google.load("visualization", "1", {packages:["corechart"]});
 
-fetch('./openings.json')
-.then(response => response.json())
-.then(openings => {
-
-  let cities = Object.keys(openings);
-  let htmlElements = "";
-
-  for (let i = 0; i < cities.length; i += 2) {
-    htmlElements += `
-    <div class="row">
-      <div class="clearfix"></div>
-      <div class="col-lg-6">
-        <div id="${cities[i]}" class="chart"></div>
-      </div>
-      <div class="col-lg-6">
-        <div id="${cities[i+1]}" class="chart"></div>
-      </div>
-    </div>`;
-  }
-  document.body.innerHTML += htmlElements;
-
-  google.setOnLoadCallback(drawChart0);
-  for (let city in openings) {
-    google.setOnLoadCallback(() => drawChart(city, openings[city]));
-  }
-
-});
-
 function drawChart(city, openings) {
   let data = google.visualization.arrayToDataTable([['Team', 'Openings'], ...openings]);
   let chart = new google.visualization.PieChart(document.getElementById(city));
@@ -61,8 +33,29 @@ let chart = new google.visualization.PieChart(document.getElementById('chart0'))
   chart.draw(data, options);
 }
 
-// $(window).resize(function(){
-//   drawChart;
-// });
+fetch('openings.json')
+.then(response => response.json())
+.then(openings => {
 
-// Reminder: you need to put https://www.google.com/jsapi in the head of your document or as an external resource on codepen //
+  let cities = Object.keys(openings);
+  let htmlElements = "";
+  for (let i = 0; i < cities.length; i += 2) {
+    htmlElements += `
+    <div class="row">
+      <div class="clearfix"></div>
+      <div class="col-lg-6">
+        <div id="${cities[i]}" class="chart"></div>
+      </div>
+      <div class="col-lg-6">
+        <div id="${cities[i+1]}" class="chart"></div>
+      </div>
+    </div>`;
+  }
+  document.body.innerHTML += htmlElements;
+
+  google.setOnLoadCallback(drawChart0);
+  for (let city in openings) {
+    google.setOnLoadCallback(() => drawChart(city, openings[city]));
+  }
+
+});
