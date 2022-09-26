@@ -1,6 +1,6 @@
 google.load("visualization", "1", {packages:["corechart"]});
 
-fetch('https://raw.githubusercontent.com/dw61/amazon-jobs/main/openings.json')
+fetch('./openings.json')
 .then(response => response.json())
 .then(openings => {
 
@@ -29,7 +29,6 @@ fetch('https://raw.githubusercontent.com/dw61/amazon-jobs/main/openings.json')
 });
 
 function drawChart(city, openings) {
-  console.log(city, openings);
   let data = google.visualization.arrayToDataTable([['Team', 'Openings'], ...openings]);
   let chart = new google.visualization.PieChart(document.getElementById(city));
   chart.draw(data, {title: city, is3D: true});
@@ -63,8 +62,7 @@ let chart = new google.visualization.PieChart(document.getElementById('chart0'))
 }
 
 // $(window).resize(function(){
-//   drawChart0();
-//   drawChart();
+//   drawChart;
 // });
 
 // Reminder: you need to put https://www.google.com/jsapi in the head of your document or as an external resource on codepen //
