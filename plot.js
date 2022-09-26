@@ -59,3 +59,7 @@ fetch('openings.json')
   }
 
 });
+
+$(window).resize(function(){
+  drawChart;
+});
