@@ -29,6 +29,8 @@ function drawChart0() {
     is3D: 'true'
  };
 
+// https://www.amazon.jobs/en/search.json?category%5B%5D=software-development&schedule_type_id%5B%5D=Full-Time&normalized_country_code%5B%5D=USA&normalized_city_name%5B%5D=Brisbane&facets%5B%5D=business_category
+
 let chart = new google.visualization.PieChart(document.getElementById('chart0'));
   chart.draw(data, options);
 }
