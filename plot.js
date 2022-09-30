@@ -7,20 +7,20 @@ function drawChart(city, openings) {
 }
 
 function drawChart0() {
-    let total = 15300;
-    let given = 6335 + 1232 + 902 + 859 + 722 + 635 + 405 + 314 + 284 + 279;
+    let total = 10900;
+    let given = 3365 + 750 + 661 + 524 + 393 + 344 + 246 + 226 + 217 + 201;
     let data = google.visualization.arrayToDataTable([
         ['City', 'Number of Openings'],
-        ['Seattle', 6335],
-        ['Arlington', 1232],
-        ['Austin', 902],
-        ['New York', 859],
-        ['Sunnyvale', 722],
-        ['Bellevue', 635],
-        ['Boston', 405],
-        ['Irvine', 314],
-        ['San Francisco', 284],
-        ['East Palo Alto', 279],
+        ['Seattle', 3365],
+        ['New York', 750],
+        ['Arlington', 661],
+        ['Austin', 524],
+        ['Bellevue', 393],
+        ['Sunnyvale', 344],
+        ['Boston', 246],
+        ['San Francisco', 226],
+        ['East Palo Alto', 217],
+        ['Dallas', 201],
         ['Other', total - given]
       ]);
 
