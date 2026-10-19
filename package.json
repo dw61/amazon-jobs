@@ -1,0 +1,10 @@
+{
+  "name": "amazon-jobs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "refresh": "node scripts/refresh-openings.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

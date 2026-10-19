@@ -2,6 +2,8 @@
 <html lang="en-US">
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5X9ZSP0K5"></script>
   <script>
@@ -12,27 +14,36 @@
     gtag('config', 'G-W5X9ZSP0K5');
   </script>
   <title>Amazon SDE Openings</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
 <body>
-  <h1 style="text-align:center; margin:0 0.5rem"> SDE Openings in the US, from Amazon.jobs</h1>
-  <p style="text-align:center;">
-    Last updated on September 26, 2022
-    [<a href="https://github.com/dw61/amazon-jobs#where-is-the-data-from">Where's the data from?</a>]
-  </p>
-  <div class="row">
-    <div class="clearfix"></div>
-    <div class="col-12">
-      <div id="chart0" class="chart"></div>
+  <main>
+    <header>
+      <h1>Amazon software development openings in the US</h1>
+      <p>Full-time postings from Amazon.jobs, updated about hourly.</p>
+      <button id="refresh" type="button">Check for update</button>
+      <p id="status" role="status" aria-live="polite">Loading job counts…</p>
+      <p><a href="https://github.com/dw61/amazon-jobs#where-is-the-data-from">Where is the data from?</a>
+        · <a href="https://www.amazon.jobs/en/search?category%5B%5D=software-development&amp;schedule_type_id%5B%5D=Full-Time&amp;normalized_country_code%5B%5D=USA">Search on Amazon</a></p>
+    </header>
+    <div id="results" hidden>
+      <p class="total"><strong id="total"></strong> matching US postings</p>
+      <p>Last successful refresh: <time id="updated"></time></p>
+      <section aria-labelledby="overview-title">
+        <h2 id="overview-title">10 cities with the most openings</h2>
+        <p>A posting can list several cities, so city counts overlap and do not add up to the US total.</p>
+        <div id="overview"></div>
+      </section>
+      <section aria-labelledby="cities-title">
+        <h2 id="cities-title">Explore teams by city</h2>
+        <p>Select a city to see its team breakdown. Counts are collected over a short refresh window and may change during collection.</p>
+        <div id="cities"></div>
+      </section>
     </div>
-  </div>
-  <script src="plot.js"></script>
+    <noscript>Enable JavaScript to see counts, or use the Amazon search link above.</noscript>
+  </main>
+  <script src="plot.js" defer></script>
 </body>
 
 </html>
