@@ -1,8 +1,5 @@
 const status = document.getElementById('status');
-const refreshButton = document.getElementById('refresh');
 const number = new Intl.NumberFormat();
-let refreshing = false;
-let lastData;
 
 function element(tag, text, className) {
   const node = document.createElement(tag);
@@ -59,16 +56,16 @@ function render(data) {
   document.getElementById('total').textContent = number.format(data.total);
   const updated = document.getElementById('updated');
   updated.dateTime = data.fetchedAt;
-  updated.textContent = new Date(data.fetchedAt).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+  updated.textContent = new Date(data.fetchedAt).toLocaleString(undefined, {
+    year: 'numeric', month: 'short', day: 'numeric',
+    hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
+  });
   document.getElementById('overview').replaceChildren(
     data.cityCounts.length ? bars(data.cityCounts.slice(0, 10)) : element('p', 'No matching jobs found.'));
 
-  // Preserve expanded city panels when a background check downloads a new snapshot.
-  const openCities = new Set([...document.querySelectorAll('details[open]')].map(node => node.dataset.city));
   const panels = data.cities.map(city => {
     const details = element('details', undefined, 'city');
     details.dataset.city = city.name;
-    details.open = openCities.has(city.name);
     const summary = element('summary', `${city.name} · ${number.format(city.total)} postings`);
     const link = element('a', 'View jobs on Amazon');
     link.href = amazonUrl(city.name);
@@ -79,40 +76,20 @@ function render(data) {
   document.getElementById('results').hidden = false;
 }
 
-function freshness() {
-  const stale = Date.now() - Date.parse(lastData.fetchedAt) > 3 * 60 * 60 * 1000;
-  status.textContent = stale
-    ? 'These counts are over 3 hours old. The scheduled refresh may be delayed; check Amazon for the latest listings.'
-    : 'Counts refresh about hourly. This page checks for a newer update every 5 minutes.';
-  status.className = stale ? 'warning' : '';
-}
-
-async function refresh() {
-  if (refreshing) return;
-  refreshing = true;
-  refreshButton.disabled = true;
-  status.textContent = 'Checking for updated counts…';
+async function loadOpenings() {
   try {
     const response = await fetch('openings.json', { cache: 'no-store', signal: AbortSignal.timeout(20000) });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     validateData(data);
-    if (lastData?.fetchedAt !== data.fetchedAt) render(data);
-    lastData = data;
-    freshness();
+    render(data);
+    status.textContent = '';
+    status.hidden = true;
   } catch (error) {
-    status.textContent = lastData
-      ? 'Could not check for an update. Showing the counts from the time below; try again shortly.'
-      : 'Could not load job counts. Please try again shortly or view listings on Amazon.';
+    status.textContent = 'Could not load job counts. Please reload the page later or view listings on Amazon.';
     status.className = 'warning';
     console.error('Unable to load job counts:', error);
-  } finally {
-    refreshing = false;
-    refreshButton.disabled = false;
   }
 }
 
-refreshButton.addEventListener('click', refresh);
-document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
-setInterval(() => { if (!document.hidden) refresh(); }, 5 * 60 * 1000);
-refresh();
+loadOpenings();
