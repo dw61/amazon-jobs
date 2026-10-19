@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-10-19T17:19:22.796Z",
-  "fetchedAt": "2026-10-19T17:19:46.297Z",
+  "startedAt": "2026-10-19T18:32:00.424Z",
+  "fetchedAt": "2026-10-19T18:32:07.652Z",
   "source": "https://www.amazon.jobs/en/search",
   "filters": {
     "country": "USA",
     "category": "software-development",
     "schedule": "Full-Time"
   },
-  "total": 1724,
+  "total": 1725,
   "cityCounts": [
     {
       "name": "Seattle",
-      "count": 779
+      "count": 783
     },
     {
       "name": "Redmond",
-      "count": 215
+      "count": 214
     },
     {
       "name": "New York",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Austin",
-      "count": 147
+      "count": 146
     },
     {
       "name": "Arlington",
@@ -36,11 +36,11 @@
     },
     {
       "name": "Cupertino",
-      "count": 125
+      "count": 124
     },
     {
       "name": "Santa Clara",
-      "count": 93
+      "count": 92
     },
     {
       "name": "Herndon",
@@ -52,7 +52,7 @@
     },
     {
       "name": "North Reading",
-      "count": 57
+      "count": 56
     },
     {
       "name": "Boston",
@@ -139,15 +139,15 @@
       "count": 8
     },
     {
+      "name": "Newark",
+      "count": 8
+    },
+    {
       "name": "Pasadena",
       "count": 8
     },
     {
       "name": "Culver City",
-      "count": 7
-    },
-    {
-      "name": "Newark",
       "count": 7
     },
     {
@@ -226,11 +226,11 @@
   "cities": [
     {
       "name": "Seattle",
-      "total": 779,
+      "total": 783,
       "teams": [
         {
           "name": "aws",
-          "count": 501
+          "count": 503
         },
         {
           "name": "advertising",
@@ -257,11 +257,11 @@
           "count": 21
         },
         {
-          "name": "alexa-and-amazon-devices",
-          "count": 15
+          "name": "consumer_engagement",
+          "count": 16
         },
         {
-          "name": "consumer_engagement",
+          "name": "alexa-and-amazon-devices",
           "count": 15
         },
         {
@@ -321,6 +321,10 @@
           "count": 1
         },
         {
+          "name": "business-and-corporate-development",
+          "count": 1
+        },
+        {
           "name": "cross-channel-cross-category-marketing",
           "count": 1
         },
@@ -336,11 +340,11 @@
     },
     {
       "name": "Redmond",
-      "total": 215,
+      "total": 214,
       "teams": [
         {
           "name": "alexa-and-amazon-devices",
-          "count": 192
+          "count": 191
         },
         {
           "name": "aws",
@@ -400,11 +404,11 @@
     },
     {
       "name": "Austin",
-      "total": 147,
+      "total": 146,
       "teams": [
         {
           "name": "aws",
-          "count": 55
+          "count": 54
         },
         {
           "name": "annapurna",
@@ -566,11 +570,11 @@
     },
     {
       "name": "Cupertino",
-      "total": 125,
+      "total": 124,
       "teams": [
         {
           "name": "aws",
-          "count": 63
+          "count": 62
         },
         {
           "name": "annapurna",
@@ -584,11 +588,11 @@
     },
     {
       "name": "Santa Clara",
-      "total": 93,
+      "total": 92,
       "teams": [
         {
           "name": "aws",
-          "count": 83
+          "count": 82
         },
         {
           "name": "consumer_engagement",
@@ -678,11 +682,11 @@
     },
     {
       "name": "North Reading",
-      "total": 57,
+      "total": 56,
       "teams": [
         {
           "name": "subsidiaries",
-          "count": 45
+          "count": 44
         },
         {
           "name": "alexa-and-amazon-devices",
@@ -1025,6 +1029,16 @@
       ]
     },
     {
+      "name": "Newark",
+      "total": 8,
+      "teams": [
+        {
+          "name": "subsidiaries",
+          "count": 8
+        }
+      ]
+    },
+    {
       "name": "Pasadena",
       "total": 8,
       "teams": [
@@ -1053,16 +1067,6 @@
         {
           "name": "subsidiaries",
           "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Newark",
-      "total": 7,
-      "teams": [
-        {
-          "name": "subsidiaries",
-          "count": 7
         }
       ]
     },
