@@ -1,1 +1,1270 @@
-{"Seattle": [["Amazon Web Services", 3550], ["Amazon Entertainment", 168], ["eCommerce Foundation", 150], ["Retail", 138], ["Operations Technology", 123], ["Amazon Ads", 116], ["Finance and Global Business Services", 99], ["Kindle Content ", 65], ["Selling Partner Services", 61], ["Amazon Go", 59], ["Consumer Engagement", 57], ["Amazon Alexa ", 56], ["Amazonian Experience and Technology", 49], ["Amazon Business", 48], ["Human Resources ", 48], ["Consumer Payments", 47], ["Amazon Devices", 22], ["Subsidiaries", 12], ["Amazon Fresh", 11], ["Student Programs", 11], ["Marketplace", 10], ["Fulfillment & Operations", 8], ["Amazon Global Corporate Affairs", 7], ["Customer Experience and Business Trends", 5], ["Business & Corporate Development", 4], ["Health Storefront and Tech ", 4], ["Amazon Transportation Services", 3], ["Legal", 2], ["Amazon Customer Service", 1]], "New York": [["Amazon Web Services", 299], ["Amazon Ads", 275], ["eCommerce Foundation", 57], ["Amazon Entertainment", 36], ["Operations Technology", 26], ["Selling Partner Services", 13], ["Retail", 11], ["Human Resources ", 10], ["Finance and Global Business Services", 8], ["Amazon Devices", 7], ["Consumer Engagement", 7], ["Kindle Content ", 4], ["Amazon Business", 3], ["Customer Experience and Business Trends", 3], ["Legal", 3], ["Amazon Go", 2], ["Consumer Payments", 2], ["Amazon Global Corporate Affairs", 2], ["Marketplace", 2], ["Subsidiaries", 2], ["Business & Corporate Development", 1]], "Arlington": [["Amazon Web Services", 443], ["Amazon Ads", 50], ["Finance and Global Business Services", 28], ["Consumer Payments", 27], ["Human Resources ", 23], ["Amazon Entertainment", 17], ["Amazon Alexa ", 16], ["Amazonian Experience and Technology", 13], ["Amazon Devices", 12], ["eCommerce Foundation", 9], ["Amazon Go", 8], ["Kindle Content ", 8], ["Operations Technology", 7], ["Amazon Fresh", 5], ["Legal", 4], ["Customer Experience and Business Trends", 3], ["Retail", 2], ["Amazon Transportation Services", 2], ["Amazon Business", 1], ["Fulfillment & Operations", 1], ["Amazon Global Corporate Affairs", 1], ["Selling Partner Services", 1], ["Subsidiaries", 1]], "Austin": [["Amazon Web Services", 187], ["Operations Technology", 66], ["Amazon Ads", 51], ["Amazon Fresh", 47], ["eCommerce Foundation", 33], ["Retail", 32], ["Amazon Entertainment", 28], ["Amazon Business", 25], ["Amazon Devices", 14], ["Amazon Go", 12], ["Consumer Payments", 7], ["Fulfillment & Operations", 6], ["Finance and Global Business Services", 5], ["Human Resources ", 5], ["Business & Corporate Development", 4], ["Subsidiaries", 4], ["Amazon Alexa ", 3], ["Consumer Engagement", 3], ["Amazon Global Corporate Affairs", 1], ["Selling Partner Services", 1], ["Amazon Transportation Services", 1]], "Bellevue": [["Amazon Web Services", 254], ["Operations Technology", 105], ["Amazon Devices", 14], ["Amazon Transportation Services", 10], ["Amazon Alexa ", 6], ["Human Resources ", 4], ["Fulfillment & Operations", 2], ["Retail", 2], ["Marketplace", 2], ["Amazon Ads", 1], ["eCommerce Foundation", 1]], "Sunnyvale": [["Amazon Web Services", 161], ["eCommerce Foundation", 81], ["Amazon Devices", 52], ["Amazon Alexa ", 21], ["Amazon Entertainment", 11], ["Amazon Ads", 10], ["Finance and Global Business Services", 8], ["Operations Technology", 8], ["Amazon Go", 3], ["Legal", 3], ["Subsidiaries", 2], ["Business & Corporate Development", 1], ["Consumer Engagement", 1], ["Consumer Payments", 1], ["Amazon Global Corporate Affairs", 1], ["Kindle Content ", 1], ["Retail", 1], ["Marketplace", 1]], "Boston": [["Amazon Web Services", 210], ["Amazonian Experience and Technology", 24], ["Human Resources ", 6], ["Amazon Transportation Services", 6], ["Operations Technology", 5], ["Amazon Ads", 4], ["Amazon Go", 3], ["Amazon Alexa ", 1], ["Amazon Business", 1], ["Amazon Global Corporate Affairs", 1], ["Retail", 1]], "East Palo Alto": [["Amazon Web Services", 249], ["Amazon Alexa ", 2], ["Amazon Ads", 1]], "San Francisco": [["Subsidiaries", 73], ["Amazon Web Services", 60], ["Amazon Entertainment", 52], ["Operations Technology", 14], ["Consumer Engagement", 4], ["Retail", 4], ["Amazon Go", 3], ["Business & Corporate Development", 3], ["Amazon Ads", 2], ["Amazon Devices", 2], ["Finance and Global Business Services", 2], ["Kindle Content ", 2], ["Amazon Fresh", 1], ["eCommerce Foundation", 1], ["Human Resources ", 1]], "Dallas": [["Amazon Web Services", 140], ["Finance and Global Business Services", 29], ["Amazonian Experience and Technology", 15], ["Amazon Business", 6], ["Human Resources ", 4], ["Amazon Ads", 2], ["eCommerce Foundation", 2], ["Consumer Payments", 1], ["Amazon Global Corporate Affairs", 1], ["Operations Technology", 1], ["Retail", 1]], "Cupertino": [["Amazon Web Services", 186], ["Consumer Payments", 6], ["Amazon Go", 2], ["Amazon Ads", 1], ["Amazon Devices", 1], ["Business & Corporate Development", 1], ["Finance and Global Business Services", 1], ["Human Resources ", 1], ["Selling Partner Services", 1]], "Herndon": [["Amazon Web Services", 194], ["Business & Corporate Development", 2], ["Amazon Ads", 1]], "Santa Clara": [["Amazon Web Services", 112], ["Amazon Alexa ", 30], ["Customer Experience and Business Trends", 4], ["Operations Technology", 4], ["Finance and Global Business Services", 2]], "Redmond": [["Amazon Web Services", 80], ["Amazon Devices", 65]], "San Diego": [["Amazon Web Services", 31], ["Amazon Devices", 8], ["Retail", 8], ["Selling Partner Services", 8], ["eCommerce Foundation", 6], ["Subsidiaries", 6], ["Amazon Ads", 5], ["Amazon Entertainment", 4], ["Operations Technology", 4], ["Amazon Go", 3], ["Amazon Business", 1], ["Amazon Fresh", 1], ["Amazonian Experience and Technology", 1], ["Business & Corporate Development", 1], ["Fulfillment & Operations", 1], ["Amazon Global Corporate Affairs", 1]], "Santa Monica": [["Amazon Ads", 64], ["Amazon Web Services", 44], ["Subsidiaries", 13], ["Amazon Entertainment", 3], ["Retail", 3], ["Amazon Business", 1], ["Consumer Engagement", 1], ["Finance and Global Business Services", 1], ["Amazon Global Corporate Affairs", 1], ["Operations Technology", 1]], "Culver City": [["Amazon Entertainment", 96], ["Subsidiaries", 14], ["Amazon Web Services", 3], ["Business & Corporate Development", 1]], "Atlanta": [["Amazon Web Services", 79], ["Amazon Entertainment", 11], ["Human Resources ", 3], ["Selling Partner Services", 3], ["Amazon Ads", 1], ["Amazon Global Corporate Affairs", 1], ["Operations Technology", 1], ["Retail", 1]], "Irvine": [["Amazon Web Services", 23], ["Amazon Alexa ", 20], ["Amazon Devices", 12], ["Amazon Entertainment", 12], ["Consumer Engagement", 10], ["Retail", 6], ["Subsidiaries", 3], ["Amazon Fresh", 2], ["Amazon Go", 2], ["Amazon Ads", 1], ["Fulfillment & Operations", 1], ["Human Resources ", 1], ["Operations Technology", 1], ["Selling Partner Services", 1]], "Jersey City": [["Amazon Web Services", 55], ["Finance and Global Business Services", 39], ["eCommerce Foundation", 1], ["Amazon Global Corporate Affairs", 1], ["Kindle Content ", 1], ["Operations Technology", 1]], "Denver": [["Amazon Web Services", 76], ["Amazon Devices", 5], ["Amazon Ads", 2], ["Retail", 2], ["Amazon Go", 1], ["Amazonian Experience and Technology", 1], ["eCommerce Foundation", 1], ["Amazon Global Corporate Affairs", 1], ["Human Resources ", 1]], "Palo Alto": [["Amazon Ads", 52], ["Retail", 20], ["Amazon Web Services", 6], ["Subsidiaries", 2], ["eCommerce Foundation", 1], ["Human Resources ", 1]], "Portland": [["Amazon Web Services", 66], ["Selling Partner Services", 5], ["Operations Technology", 1]], "Tempe": [["Selling Partner Services", 24], ["Amazon Business", 5], ["Operations Technology", 5], ["Amazon Go", 2], ["Amazon Web Services", 2], ["Marketplace", 2], ["Consumer Engagement", 1], ["eCommerce Foundation", 1], ["Retail", 1]], "Newark": [["Subsidiaries", 55], ["Amazon Web Services", 2], ["Fulfillment & Operations", 1]], "Minneapolis": [["Amazon Web Services", 35], ["Operations Technology", 10], ["Finance and Global Business Services", 1], ["Amazon Global Corporate Affairs", 1], ["Amazon Transportation Services", 1]], "Nashville": [["Operations Technology", 17], ["Fulfillment & Operations", 5], ["Amazon Fresh", 4], ["Amazon Go", 4], ["Amazon Transportation Services", 4], ["Amazon Web Services", 3], ["Amazon Devices", 1], ["Business & Corporate Development", 1], ["Human Resources ", 1]], "Boulder": [["Amazon Ads", 37], ["Amazon Web Services", 3], ["Amazon Entertainment", 1], ["Operations Technology", 1]], "Detroit": [["Selling Partner Services", 21], ["eCommerce Foundation", 6], ["Marketplace", 5], ["Amazon Web Services", 2], ["Finance and Global Business Services", 1], ["Human Resources ", 1], ["Retail", 1]], "Chicago": [["Amazon Web Services", 34], ["Amazon Ads", 7], ["Operations Technology", 1]], "Miami": [["Amazon Web Services", 24], ["Business & Corporate Development", 2], ["Finance and Global Business Services", 2], ["Human Resources ", 2]], "Cambridge": [["Subsidiaries", 11], ["Amazon Web Services", 7], ["Amazon Alexa ", 5], ["Amazon Ads", 2], ["Amazon Go", 1], ["Fulfillment & Operations", 1]], "San Luis Obispo": [["Kindle Content ", 16], ["Amazon Web Services", 7], ["Human Resources ", 1]], "North Reading": [["Subsidiaries", 11], ["Operations Technology", 5], ["Amazon Devices", 2], ["Business & Corporate Development", 1]], "Hawthorne": [["Amazon Devices", 19]], "Westborough": [["Subsidiaries", 14], ["Operations Technology", 2], ["Amazon Fresh", 1]], "Los Angeles": [["Amazon Web Services", 5], ["Subsidiaries", 1]], "Pennsylvania Furnace": [["Amazon Web Services", 9], ["Retail", 1]], "Northridge": [["Amazon Devices", 10]], "Annapolis Junction": [["Amazon Web Services", 9]], "Houston": [["Amazon Web Services", 7], ["Amazon Global Corporate Affairs", 1]], "Phoenix": [["Amazon Web Services", 5], ["Amazon Go", 1], ["Selling Partner Services", 1]], "Raleigh": [["Finance and Global Business Services", 4], ["Amazon Web Services", 3]], "Troy": [["Amazon Alexa ", 6]], "Santa Cruz": [["Operations Technology", 4]], "Charlotte": [["Amazon Web Services", 4]], "Florence": [["Amazon Web Services", 4]], "Hudson": [["Amazon Go", 2], ["Amazon Web Services", 1], ["Operations Technology", 1]], "Pasadena": [["Amazon Web Services", 3], ["Retail", 1]], "Pittsburgh": [["Retail", 2], ["Amazon Web Services", 1]], "San Jose": [["Amazon Web Services", 3], ["Operations Technology", 1]], "Lehi": [["Retail", 2], ["Amazon Web Services", 1]], "Salt Lake City": [["Amazon Web Services", 2], ["Subsidiaries", 1]], "West Valley City": [["Amazon Web Services", 1]], "Chantilly": [["Amazon Web Services", 2]], "Charleston": [["Amazon Web Services", 1], ["Human Resources ", 1]], "Durham": [["Amazon Web Services", 1], ["Finance and Global Business Services", 1]], "Louisville": [["Amazon Go", 1]], "North Charleston": [["Amazon Web Services", 2]], "Philadelphia": [["Amazon Web Services", 2]], "Washington": [["Amazon Go", 1], ["Amazon Web Services", 1]], "Auburn": [["Amazon Web Services", 1]], "Berkeley": [], "Brisbane": [["Retail", 1]], "Cincinnati": [["Amazon Web Services", 1]], "Glendale": [["Amazon Web Services", 1]], "Grand Haven": [["Kindle Content ", 1]], "Hebron": [], "Hilliard": [["Amazon Web Services", 1]], "Las Vegas": [["Amazon Web Services", 1]], "Madison": [["Amazon Web Services", 1]], "Malvern": [["Amazon Devices", 1]], "Miami Beach": [["Consumer Payments", 1]], "Orlando": [["Amazon Ads", 1]], "Santa Barbara": [], "Tukwila": [["Amazon Web Services", 1]], "Vancouver": [["Amazon Web Services", 1]], "West Hollywood": [["Amazon Entertainment", 1]], "Wilmington": [["Amazon Web Services", 1]]}
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-19T17:19:22.796Z",
+  "fetchedAt": "2026-10-19T17:19:46.297Z",
+  "source": "https://www.amazon.jobs/en/search",
+  "filters": {
+    "country": "USA",
+    "category": "software-development",
+    "schedule": "Full-Time"
+  },
+  "total": 1724,
+  "cityCounts": [
+    {
+      "name": "Seattle",
+      "count": 779
+    },
+    {
+      "name": "Redmond",
+      "count": 215
+    },
+    {
+      "name": "New York",
+      "count": 163
+    },
+    {
+      "name": "Austin",
+      "count": 147
+    },
+    {
+      "name": "Arlington",
+      "count": 132
+    },
+    {
+      "name": "Bellevue",
+      "count": 132
+    },
+    {
+      "name": "Cupertino",
+      "count": 125
+    },
+    {
+      "name": "Santa Clara",
+      "count": 93
+    },
+    {
+      "name": "Herndon",
+      "count": 73
+    },
+    {
+      "name": "Sunnyvale",
+      "count": 67
+    },
+    {
+      "name": "North Reading",
+      "count": 57
+    },
+    {
+      "name": "Boston",
+      "count": 54
+    },
+    {
+      "name": "Denver",
+      "count": 47
+    },
+    {
+      "name": "San Francisco",
+      "count": 33
+    },
+    {
+      "name": "East Palo Alto",
+      "count": 28
+    },
+    {
+      "name": "San Diego",
+      "count": 28
+    },
+    {
+      "name": "Palo Alto",
+      "count": 23
+    },
+    {
+      "name": "Dallas",
+      "count": 22
+    },
+    {
+      "name": "Jersey City",
+      "count": 19
+    },
+    {
+      "name": "Westborough",
+      "count": 19
+    },
+    {
+      "name": "Northridge",
+      "count": 18
+    },
+    {
+      "name": "Minneapolis",
+      "count": 14
+    },
+    {
+      "name": "Chicago",
+      "count": 13
+    },
+    {
+      "name": "Irvine",
+      "count": 11
+    },
+    {
+      "name": "Jessup",
+      "count": 10
+    },
+    {
+      "name": "Brooklyn",
+      "count": 9
+    },
+    {
+      "name": "Carle Place",
+      "count": 9
+    },
+    {
+      "name": "Hawthorne",
+      "count": 9
+    },
+    {
+      "name": "Santa Monica",
+      "count": 9
+    },
+    {
+      "name": "Astoria",
+      "count": 8
+    },
+    {
+      "name": "Atlanta",
+      "count": 8
+    },
+    {
+      "name": "Houston",
+      "count": 8
+    },
+    {
+      "name": "Pasadena",
+      "count": 8
+    },
+    {
+      "name": "Culver City",
+      "count": 7
+    },
+    {
+      "name": "Newark",
+      "count": 7
+    },
+    {
+      "name": "Raleigh",
+      "count": 6
+    },
+    {
+      "name": "Tempe",
+      "count": 6
+    },
+    {
+      "name": "Cambridge",
+      "count": 5
+    },
+    {
+      "name": "Portland",
+      "count": 4
+    },
+    {
+      "name": "Boulder",
+      "count": 3
+    },
+    {
+      "name": "Detroit",
+      "count": 3
+    },
+    {
+      "name": "Mountain View",
+      "count": 3
+    },
+    {
+      "name": "Nashville",
+      "count": 3
+    },
+    {
+      "name": "Annapolis Junction",
+      "count": 2
+    },
+    {
+      "name": "El Segundo",
+      "count": 2
+    },
+    {
+      "name": "Bee Cave",
+      "count": 1
+    },
+    {
+      "name": "Hudson",
+      "count": 1
+    },
+    {
+      "name": "Irving",
+      "count": 1
+    },
+    {
+      "name": "Los Gatos",
+      "count": 1
+    },
+    {
+      "name": "Madison",
+      "count": 1
+    },
+    {
+      "name": "Miami",
+      "count": 1
+    },
+    {
+      "name": "Plymouth",
+      "count": 1
+    },
+    {
+      "name": "Santa Cruz",
+      "count": 1
+    }
+  ],
+  "cities": [
+    {
+      "name": "Seattle",
+      "total": 779,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 501
+        },
+        {
+          "name": "advertising",
+          "count": 41
+        },
+        {
+          "name": "amazon-security",
+          "count": 33
+        },
+        {
+          "name": "ecp",
+          "count": 29
+        },
+        {
+          "name": "annapurna",
+          "count": 28
+        },
+        {
+          "name": "retail",
+          "count": 22
+        },
+        {
+          "name": "subsidiaries",
+          "count": 21
+        },
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 15
+        },
+        {
+          "name": "consumer_engagement",
+          "count": 15
+        },
+        {
+          "name": "selling-partner-services",
+          "count": 15
+        },
+        {
+          "name": "entertainment",
+          "count": 11
+        },
+        {
+          "name": "studentprograms",
+          "count": 11
+        },
+        {
+          "name": "customer-service",
+          "count": 9
+        },
+        {
+          "name": "pxt",
+          "count": 6
+        },
+        {
+          "name": "cx-and-business-trends",
+          "count": 3
+        },
+        {
+          "name": "north-america-stores",
+          "count": 3
+        },
+        {
+          "name": "amazon-business",
+          "count": 2
+        },
+        {
+          "name": "finance",
+          "count": 2
+        },
+        {
+          "name": "fulfillment-ops",
+          "count": 2
+        },
+        {
+          "name": "international-stores",
+          "count": 2
+        },
+        {
+          "name": "kindlecontent",
+          "count": 2
+        },
+        {
+          "name": "operations",
+          "count": 2
+        },
+        {
+          "name": "amazon-artificial-general-intelligence",
+          "count": 1
+        },
+        {
+          "name": "cross-channel-cross-category-marketing",
+          "count": 1
+        },
+        {
+          "name": "customer-trust-and-partner-support",
+          "count": 1
+        },
+        {
+          "name": "no-business-category",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Redmond",
+      "total": 215,
+      "teams": [
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 192
+        },
+        {
+          "name": "aws",
+          "count": 17
+        },
+        {
+          "name": "studentprograms",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "name": "New York",
+      "total": 163,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 89
+        },
+        {
+          "name": "advertising",
+          "count": 43
+        },
+        {
+          "name": "annapurna",
+          "count": 8
+        },
+        {
+          "name": "subsidiaries",
+          "count": 7
+        },
+        {
+          "name": "amazon-security",
+          "count": 6
+        },
+        {
+          "name": "entertainment",
+          "count": 3
+        },
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 2
+        },
+        {
+          "name": "ecp",
+          "count": 2
+        },
+        {
+          "name": "selling-partner-services",
+          "count": 2
+        },
+        {
+          "name": "cross-channel-cross-category-marketing",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Austin",
+      "total": 147,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 55
+        },
+        {
+          "name": "annapurna",
+          "count": 32
+        },
+        {
+          "name": "amazon-security",
+          "count": 20
+        },
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 18
+        },
+        {
+          "name": "subsidiaries",
+          "count": 7
+        },
+        {
+          "name": "advertising",
+          "count": 4
+        },
+        {
+          "name": "operations",
+          "count": 4
+        },
+        {
+          "name": "studentprograms",
+          "count": 3
+        },
+        {
+          "name": "customer-service",
+          "count": 1
+        },
+        {
+          "name": "ecp",
+          "count": 1
+        },
+        {
+          "name": "transportation-and-logistics",
+          "count": 1
+        },
+        {
+          "name": "worldwide-grocery-stores",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Arlington",
+      "total": 132,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 96
+        },
+        {
+          "name": "amazon-security",
+          "count": 10
+        },
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 5
+        },
+        {
+          "name": "studentprograms",
+          "count": 5
+        },
+        {
+          "name": "pxt",
+          "count": 4
+        },
+        {
+          "name": "entertainment",
+          "count": 3
+        },
+        {
+          "name": "subsidiaries",
+          "count": 3
+        },
+        {
+          "name": "advertising",
+          "count": 2
+        },
+        {
+          "name": "operations",
+          "count": 2
+        },
+        {
+          "name": "cx-and-business-trends",
+          "count": 1
+        },
+        {
+          "name": "ecp",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Bellevue",
+      "total": 132,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 44
+        },
+        {
+          "name": "operations",
+          "count": 30
+        },
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 21
+        },
+        {
+          "name": "pxt",
+          "count": 8
+        },
+        {
+          "name": "subsidiaries",
+          "count": 6
+        },
+        {
+          "name": "finance",
+          "count": 5
+        },
+        {
+          "name": "fulfillment-and-operations",
+          "count": 4
+        },
+        {
+          "name": "transportation-and-logistics",
+          "count": 4
+        },
+        {
+          "name": "amazon-artificial-general-intelligence",
+          "count": 2
+        },
+        {
+          "name": "amazon-security",
+          "count": 2
+        },
+        {
+          "name": "selling-partner-services",
+          "count": 2
+        },
+        {
+          "name": "studentprograms",
+          "count": 2
+        },
+        {
+          "name": "kindlecontent",
+          "count": 1
+        },
+        {
+          "name": "retail",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Cupertino",
+      "total": 125,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 63
+        },
+        {
+          "name": "annapurna",
+          "count": 60
+        },
+        {
+          "name": "studentprograms",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Santa Clara",
+      "total": 93,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 83
+        },
+        {
+          "name": "consumer_engagement",
+          "count": 3
+        },
+        {
+          "name": "studentprograms",
+          "count": 2
+        },
+        {
+          "name": "amazon-business",
+          "count": 1
+        },
+        {
+          "name": "customer-service",
+          "count": 1
+        },
+        {
+          "name": "operations",
+          "count": 1
+        },
+        {
+          "name": "pxt",
+          "count": 1
+        },
+        {
+          "name": "subsidiaries",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Herndon",
+      "total": 73,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 47
+        },
+        {
+          "name": "amazon-security",
+          "count": 24
+        },
+        {
+          "name": "studentprograms",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Sunnyvale",
+      "total": 67,
+      "teams": [
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 35
+        },
+        {
+          "name": "aws",
+          "count": 13
+        },
+        {
+          "name": "ecp",
+          "count": 9
+        },
+        {
+          "name": "advertising",
+          "count": 3
+        },
+        {
+          "name": "amazon-artificial-general-intelligence",
+          "count": 2
+        },
+        {
+          "name": "studentprograms",
+          "count": 2
+        },
+        {
+          "name": "subsidiaries",
+          "count": 2
+        },
+        {
+          "name": "entertainment",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "North Reading",
+      "total": 57,
+      "teams": [
+        {
+          "name": "subsidiaries",
+          "count": 45
+        },
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 11
+        },
+        {
+          "name": "advertising",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Boston",
+      "total": 54,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 42
+        },
+        {
+          "name": "amazon-artificial-general-intelligence",
+          "count": 5
+        },
+        {
+          "name": "pxt",
+          "count": 2
+        },
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 1
+        },
+        {
+          "name": "amazon-business",
+          "count": 1
+        },
+        {
+          "name": "no-business-category",
+          "count": 1
+        },
+        {
+          "name": "studentprograms",
+          "count": 1
+        },
+        {
+          "name": "subsidiaries",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Denver",
+      "total": 47,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 36
+        },
+        {
+          "name": "studentprograms",
+          "count": 5
+        },
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 4
+        },
+        {
+          "name": "subsidiaries",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "San Francisco",
+      "total": 33,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 16
+        },
+        {
+          "name": "subsidiaries",
+          "count": 12
+        },
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 2
+        },
+        {
+          "name": "advertising",
+          "count": 1
+        },
+        {
+          "name": "consumer_engagement",
+          "count": 1
+        },
+        {
+          "name": "fulfillment-technology-and-robotics",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "East Palo Alto",
+      "total": 28,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 27
+        },
+        {
+          "name": "studentprograms",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "San Diego",
+      "total": 28,
+      "teams": [
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 15
+        },
+        {
+          "name": "aws",
+          "count": 10
+        },
+        {
+          "name": "amazon-security",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Palo Alto",
+      "total": 23,
+      "teams": [
+        {
+          "name": "advertising",
+          "count": 11
+        },
+        {
+          "name": "retail",
+          "count": 10
+        },
+        {
+          "name": "aws",
+          "count": 1
+        },
+        {
+          "name": "consumer_engagement",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Dallas",
+      "total": 22,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 21
+        },
+        {
+          "name": "pxt",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Jersey City",
+      "total": 19,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "name": "Westborough",
+      "total": 19,
+      "teams": [
+        {
+          "name": "subsidiaries",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "name": "Northridge",
+      "total": 18,
+      "teams": [
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 14
+        },
+        {
+          "name": "studentprograms",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Minneapolis",
+      "total": 14,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 12
+        },
+        {
+          "name": "operations",
+          "count": 1
+        },
+        {
+          "name": "studentprograms",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Chicago",
+      "total": 13,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "name": "Irvine",
+      "total": 11,
+      "teams": [
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 8
+        },
+        {
+          "name": "aws",
+          "count": 2
+        },
+        {
+          "name": "subsidiaries",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Jessup",
+      "total": 10,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 7
+        },
+        {
+          "name": "studentprograms",
+          "count": 2
+        },
+        {
+          "name": "amazon-security",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Brooklyn",
+      "total": 9,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "name": "Carle Place",
+      "total": 9,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "name": "Hawthorne",
+      "total": 9,
+      "teams": [
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "name": "Santa Monica",
+      "total": 9,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 8
+        },
+        {
+          "name": "cross-channel-cross-category-marketing",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Astoria",
+      "total": 8,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "name": "Atlanta",
+      "total": 8,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "name": "Houston",
+      "total": 8,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "name": "Pasadena",
+      "total": 8,
+      "teams": [
+        {
+          "name": "subsidiaries",
+          "count": 5
+        },
+        {
+          "name": "aws",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Culver City",
+      "total": 7,
+      "teams": [
+        {
+          "name": "entertainment",
+          "count": 5
+        },
+        {
+          "name": "studentprograms",
+          "count": 1
+        },
+        {
+          "name": "subsidiaries",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Newark",
+      "total": 7,
+      "teams": [
+        {
+          "name": "subsidiaries",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "name": "Raleigh",
+      "total": 6,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "name": "Tempe",
+      "total": 6,
+      "teams": [
+        {
+          "name": "selling-partner-services",
+          "count": 4
+        },
+        {
+          "name": "operations",
+          "count": 1
+        },
+        {
+          "name": "seller-services",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Cambridge",
+      "total": 5,
+      "teams": [
+        {
+          "name": "subsidiaries",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "Portland",
+      "total": 4,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Boulder",
+      "total": 3,
+      "teams": [
+        {
+          "name": "advertising",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Detroit",
+      "total": 3,
+      "teams": [
+        {
+          "name": "ecp",
+          "count": 1
+        },
+        {
+          "name": "selling-partner-services",
+          "count": 1
+        },
+        {
+          "name": "studentprograms",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Mountain View",
+      "total": 3,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Nashville",
+      "total": 3,
+      "teams": [
+        {
+          "name": "subsidiaries",
+          "count": 2
+        },
+        {
+          "name": "studentprograms",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Annapolis Junction",
+      "total": 2,
+      "teams": [
+        {
+          "name": "amazon-security",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "El Segundo",
+      "total": 2,
+      "teams": [
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Bee Cave",
+      "total": 1,
+      "teams": [
+        {
+          "name": "operations",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Hudson",
+      "total": 1,
+      "teams": [
+        {
+          "name": "studentprograms",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Irving",
+      "total": 1,
+      "teams": [
+        {
+          "name": "selling-partner-services",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Los Gatos",
+      "total": 1,
+      "teams": [
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Madison",
+      "total": 1,
+      "teams": [
+        {
+          "name": "studentprograms",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Miami",
+      "total": 1,
+      "teams": [
+        {
+          "name": "business-and-corporate-development",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Plymouth",
+      "total": 1,
+      "teams": [
+        {
+          "name": "operations",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Santa Cruz",
+      "total": 1,
+      "teams": [
+        {
+          "name": "fulfillment-and-operations",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
