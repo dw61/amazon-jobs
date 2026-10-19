@@ -4,15 +4,14 @@
 
 ## Where is the data from?
 
-GitHub Actions queries Amazon's public `/en/search.json` endpoint about once an hour,
+GitHub Actions queries Amazon's public `/en/search.json` endpoint once a day,
 using the Software Development category, Full-Time schedule, and USA country filters.
 It requests Amazon's city counts, then business-category counts for each city. No
 Amazon login, private database access, separate backend host, or third-party proxy is needed.
 
-The page shows the latest successful snapshot and its collection time. This is an
-hourly refresh, not a request to Amazon on every page visit. The page checks for a
-new published snapshot every five minutes while visible; **Check for update** checks
-the published file immediately, rather than triggering a GitHub workflow.
+The page loads the latest published snapshot once and displays its last-updated
+date and time in the visitor's time zone. Visitors cannot trigger collection or
+GitHub Actions from the website. Reloading the page loads the published data.
 
 One posting may appear in several cities. City counts therefore overlap and must
 not be added up or used as shares of the US total. Counts across cities are fetched
@@ -22,21 +21,32 @@ from Amazon's category identifiers, with simple display formatting.
 
 ## Refresh and deployment
 
-The **Refresh jobs and deploy** workflow runs hourly at minute 17, on pushes to
-`main`, and manually from the repository's **Actions** tab. Schedules can be delayed
-by GitHub; public repository schedules can be disabled after 60 days of repository
-inactivity. The page flags data older than three hours. Re-enable the workflow in
-Actions if GitHub disables it.
+The **Refresh jobs and deploy** workflow collects data daily at 15:17 UTC. The
+repository owner can also start collection from the repository's **Actions** tab.
+Schedules can be delayed by GitHub; public repository schedules can be disabled
+after 60 days of repository inactivity. Re-enable the workflow in Actions if
+GitHub disables it.
 
 The workflow validates the data, retries temporary failures, and limits collection
 to three concurrent requests. If any city fails, it fails the run and leaves the
 previous Pages deployment intact. Check the failed Actions run for details.
 
-The workflow publishes a Pages artifact directly, without making hourly data
-commits. The Pages publishing source must be **GitHub Actions** in repository
-Settings → Pages. `openings.json` in the repository is an initial example snapshot;
-the deployed site gets newly collected data in every successful workflow run.
-No custom credentials or secrets are required; deployment uses GitHub's built-in token.
+After successful collection, the refresh job commits `openings.json` to `main`
+as `github-actions[bot]`. Only this job has `contents: write`; it runs only for
+scheduled or manually requested refreshes on `main`. The workflow then builds
+and deploys that exact commit to GitHub Pages. The repository and published site
+therefore use the same snapshot. A rejected push fails the refresh without
+overwriting newer commits or deploying uncommitted data.
+
+Pushes to `main` publish the existing committed data without querying Amazon.
+Pull requests run tests without collecting, committing, or deploying data.
+GitHub's built-in token pushes do not start another push workflow, so a daily
+refresh commits and deploys within the same run without a recursive loop.
+
+The Pages publishing source must be **GitHub Actions** in repository Settings →
+Pages. No custom credentials or secrets are required; commits and deployment use
+GitHub's built-in token. Repository rules must allow the bot to push data commits
+to `main`.
 
 ## Local development
 
