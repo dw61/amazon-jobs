@@ -1,50 +1,50 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-10-24T18:07:51.161Z",
-  "fetchedAt": "2026-10-24T18:07:57.772Z",
+  "startedAt": "2026-10-25T18:24:16.326Z",
+  "fetchedAt": "2026-10-25T18:24:23.056Z",
   "source": "https://www.amazon.jobs/en/search",
   "filters": {
     "country": "USA",
     "category": "software-development",
     "schedule": "Full-Time"
   },
-  "total": 1708,
+  "total": 1697,
   "cityCounts": [
     {
       "name": "Seattle",
-      "count": 780
+      "count": 774
     },
     {
       "name": "Redmond",
-      "count": 209
+      "count": 207
     },
     {
       "name": "New York",
-      "count": 168
+      "count": 166
     },
     {
       "name": "Arlington",
-      "count": 147
+      "count": 146
     },
     {
       "name": "Austin",
-      "count": 144
+      "count": 141
     },
     {
       "name": "Bellevue",
-      "count": 131
+      "count": 132
     },
     {
       "name": "Cupertino",
-      "count": 123
+      "count": 122
     },
     {
       "name": "Santa Clara",
-      "count": 99
+      "count": 98
     },
     {
       "name": "Herndon",
-      "count": 81
+      "count": 80
     },
     {
       "name": "Sunnyvale",
@@ -56,7 +56,7 @@
     },
     {
       "name": "North Reading",
-      "count": 53
+      "count": 52
     },
     {
       "name": "Denver",
@@ -72,7 +72,7 @@
     },
     {
       "name": "Dallas",
-      "count": 26
+      "count": 25
     },
     {
       "name": "San Diego",
@@ -87,12 +87,12 @@
       "count": 18
     },
     {
-      "name": "Jersey City",
+      "name": "Northridge",
       "count": 17
     },
     {
-      "name": "Northridge",
-      "count": 17
+      "name": "Jersey City",
+      "count": 16
     },
     {
       "name": "Minneapolis",
@@ -100,7 +100,7 @@
     },
     {
       "name": "Chicago",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Irvine",
@@ -222,11 +222,11 @@
   "cities": [
     {
       "name": "Seattle",
-      "total": 780,
+      "total": 774,
       "teams": [
         {
           "name": "aws",
-          "count": 499
+          "count": 495
         },
         {
           "name": "advertising",
@@ -250,7 +250,7 @@
         },
         {
           "name": "subsidiaries",
-          "count": 20
+          "count": 19
         },
         {
           "name": "consumer_engagement",
@@ -278,7 +278,7 @@
         },
         {
           "name": "customer-service",
-          "count": 6
+          "count": 5
         },
         {
           "name": "north-america-stores",
@@ -332,11 +332,11 @@
     },
     {
       "name": "Redmond",
-      "total": 209,
+      "total": 207,
       "teams": [
         {
           "name": "alexa-and-amazon-devices",
-          "count": 186
+          "count": 184
         },
         {
           "name": "aws",
@@ -350,15 +350,15 @@
     },
     {
       "name": "New York",
-      "total": 168,
+      "total": 166,
       "teams": [
         {
           "name": "aws",
-          "count": 91
+          "count": 90
         },
         {
           "name": "advertising",
-          "count": 44
+          "count": 43
         },
         {
           "name": "subsidiaries",
@@ -400,11 +400,11 @@
     },
     {
       "name": "Arlington",
-      "total": 147,
+      "total": 146,
       "teams": [
         {
           "name": "aws",
-          "count": 104
+          "count": 103
         },
         {
           "name": "amazon-security",
@@ -454,15 +454,15 @@
     },
     {
       "name": "Austin",
-      "total": 144,
+      "total": 141,
       "teams": [
         {
           "name": "annapurna",
-          "count": 50
+          "count": 49
         },
         {
           "name": "aws",
-          "count": 38
+          "count": 37
         },
         {
           "name": "alexa-and-amazon-devices",
@@ -474,7 +474,7 @@
         },
         {
           "name": "subsidiaries",
-          "count": 6
+          "count": 5
         },
         {
           "name": "advertising",
@@ -512,11 +512,11 @@
     },
     {
       "name": "Bellevue",
-      "total": 131,
+      "total": 132,
       "teams": [
         {
           "name": "aws",
-          "count": 46
+          "count": 47
         },
         {
           "name": "operations",
@@ -582,11 +582,11 @@
     },
     {
       "name": "Cupertino",
-      "total": 123,
+      "total": 122,
       "teams": [
         {
           "name": "annapurna",
-          "count": 81
+          "count": 80
         },
         {
           "name": "aws",
@@ -600,7 +600,7 @@
     },
     {
       "name": "Santa Clara",
-      "total": 99,
+      "total": 98,
       "teams": [
         {
           "name": "aws",
@@ -629,20 +629,16 @@
         {
           "name": "pxt",
           "count": 1
-        },
-        {
-          "name": "subsidiaries",
-          "count": 1
         }
       ]
     },
     {
       "name": "Herndon",
-      "total": 81,
+      "total": 80,
       "teams": [
         {
           "name": "aws",
-          "count": 53
+          "count": 52
         },
         {
           "name": "amazon-security",
@@ -732,11 +728,11 @@
     },
     {
       "name": "North Reading",
-      "total": 53,
+      "total": 52,
       "teams": [
         {
           "name": "subsidiaries",
-          "count": 40
+          "count": 39
         },
         {
           "name": "alexa-and-amazon-devices",
@@ -816,11 +812,11 @@
     },
     {
       "name": "Dallas",
-      "total": 26,
+      "total": 25,
       "teams": [
         {
           "name": "aws",
-          "count": 23
+          "count": 22
         },
         {
           "name": "pxt",
@@ -879,16 +875,6 @@
       ]
     },
     {
-      "name": "Jersey City",
-      "total": 17,
-      "teams": [
-        {
-          "name": "aws",
-          "count": 17
-        }
-      ]
-    },
-    {
       "name": "Northridge",
       "total": 17,
       "teams": [
@@ -899,6 +885,16 @@
         {
           "name": "studentprograms",
           "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Jersey City",
+      "total": 16,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 16
         }
       ]
     },
@@ -922,11 +918,11 @@
     },
     {
       "name": "Chicago",
-      "total": 11,
+      "total": 10,
       "teams": [
         {
           "name": "aws",
-          "count": 11
+          "count": 10
         }
       ]
     },
