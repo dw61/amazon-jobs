@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-10-30T19:55:55.380Z",
-  "fetchedAt": "2026-10-30T19:56:01.549Z",
+  "startedAt": "2026-10-31T19:16:50.220Z",
+  "fetchedAt": "2026-10-31T19:16:55.783Z",
   "source": "https://www.amazon.jobs/en/search",
   "filters": {
     "country": "USA",
     "category": "software-development",
     "schedule": "Full-Time"
   },
-  "total": 1731,
+  "total": 1732,
   "cityCounts": [
     {
       "name": "Seattle",
-      "count": 802
+      "count": 803
     },
     {
       "name": "Redmond",
-      "count": 214
+      "count": 215
     },
     {
       "name": "New York",
-      "count": 163
+      "count": 165
     },
     {
       "name": "Arlington",
@@ -36,7 +36,7 @@
     },
     {
       "name": "Cupertino",
-      "count": 118
+      "count": 119
     },
     {
       "name": "Santa Clara",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Boston",
-      "count": 72
+      "count": 73
     },
     {
       "name": "Sunnyvale",
@@ -64,7 +64,7 @@
     },
     {
       "name": "East Palo Alto",
-      "count": 32
+      "count": 33
     },
     {
       "name": "San Diego",
@@ -72,7 +72,7 @@
     },
     {
       "name": "San Francisco",
-      "count": 30
+      "count": 31
     },
     {
       "name": "Dallas",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Palo Alto",
-      "count": 20
+      "count": 19
     },
     {
       "name": "Westborough",
@@ -139,15 +139,15 @@
       "count": 8
     },
     {
-      "name": "Tempe",
-      "count": 8
-    },
-    {
       "name": "Atlanta",
       "count": 7
     },
     {
       "name": "Chicago",
+      "count": 7
+    },
+    {
+      "name": "Tempe",
       "count": 7
     },
     {
@@ -222,11 +222,11 @@
   "cities": [
     {
       "name": "Seattle",
-      "total": 802,
+      "total": 803,
       "teams": [
         {
           "name": "aws",
-          "count": 501
+          "count": 502
         },
         {
           "name": "amazon-security",
@@ -242,7 +242,7 @@
         },
         {
           "name": "ecp",
-          "count": 32
+          "count": 33
         },
         {
           "name": "retail",
@@ -253,11 +253,11 @@
           "count": 18
         },
         {
-          "name": "consumer_engagement",
-          "count": 15
+          "name": "studentprograms",
+          "count": 14
         },
         {
-          "name": "studentprograms",
+          "name": "consumer_engagement",
           "count": 13
         },
         {
@@ -336,7 +336,7 @@
     },
     {
       "name": "Redmond",
-      "total": 214,
+      "total": 215,
       "teams": [
         {
           "name": "alexa-and-amazon-devices",
@@ -348,13 +348,13 @@
         },
         {
           "name": "studentprograms",
-          "count": 6
+          "count": 7
         }
       ]
     },
     {
       "name": "New York",
-      "total": 163,
+      "total": 165,
       "teams": [
         {
           "name": "aws",
@@ -362,11 +362,11 @@
         },
         {
           "name": "advertising",
-          "count": 43
+          "count": 44
         },
         {
           "name": "subsidiaries",
-          "count": 11
+          "count": 12
         },
         {
           "name": "annapurna",
@@ -470,7 +470,7 @@
         },
         {
           "name": "aws",
-          "count": 34
+          "count": 33
         },
         {
           "name": "alexa-and-amazon-devices",
@@ -482,7 +482,7 @@
         },
         {
           "name": "studentprograms",
-          "count": 5
+          "count": 6
         },
         {
           "name": "subsidiaries",
@@ -594,11 +594,11 @@
     },
     {
       "name": "Cupertino",
-      "total": 118,
+      "total": 119,
       "teams": [
         {
           "name": "annapurna",
-          "count": 80
+          "count": 81
         },
         {
           "name": "aws",
@@ -656,7 +656,7 @@
     },
     {
       "name": "Boston",
-      "total": 72,
+      "total": 73,
       "teams": [
         {
           "name": "aws",
@@ -668,7 +668,7 @@
         },
         {
           "name": "studentprograms",
-          "count": 3
+          "count": 4
         },
         {
           "name": "fulfillment-technology-and-robotics",
@@ -772,7 +772,7 @@
     },
     {
       "name": "East Palo Alto",
-      "total": 32,
+      "total": 33,
       "teams": [
         {
           "name": "aws",
@@ -780,7 +780,7 @@
         },
         {
           "name": "studentprograms",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -812,7 +812,7 @@
     },
     {
       "name": "San Francisco",
-      "total": 30,
+      "total": 31,
       "teams": [
         {
           "name": "aws",
@@ -824,6 +824,10 @@
         },
         {
           "name": "advertising",
+          "count": 1
+        },
+        {
+          "name": "consumer_engagement",
           "count": 1
         },
         {
@@ -848,15 +852,15 @@
     },
     {
       "name": "Palo Alto",
-      "total": 20,
+      "total": 19,
       "teams": [
-        {
-          "name": "advertising",
-          "count": 9
-        },
         {
           "name": "retail",
           "count": 9
+        },
+        {
+          "name": "advertising",
+          "count": 8
         },
         {
           "name": "aws",
@@ -1061,24 +1065,6 @@
       ]
     },
     {
-      "name": "Tempe",
-      "total": 8,
-      "teams": [
-        {
-          "name": "selling-partner-services",
-          "count": 6
-        },
-        {
-          "name": "operations",
-          "count": 1
-        },
-        {
-          "name": "seller-services",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Atlanta",
       "total": 7,
       "teams": [
@@ -1095,6 +1081,24 @@
         {
           "name": "aws",
           "count": 7
+        }
+      ]
+    },
+    {
+      "name": "Tempe",
+      "total": 7,
+      "teams": [
+        {
+          "name": "selling-partner-services",
+          "count": 5
+        },
+        {
+          "name": "operations",
+          "count": 1
+        },
+        {
+          "name": "seller-services",
+          "count": 1
         }
       ]
     },
