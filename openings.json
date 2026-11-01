@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-10-31T19:16:50.220Z",
-  "fetchedAt": "2026-10-31T19:16:55.783Z",
+  "startedAt": "2026-11-01T19:38:43.819Z",
+  "fetchedAt": "2026-11-01T19:38:49.794Z",
   "source": "https://www.amazon.jobs/en/search",
   "filters": {
     "country": "USA",
     "category": "software-development",
     "schedule": "Full-Time"
   },
-  "total": 1732,
+  "total": 1726,
   "cityCounts": [
     {
       "name": "Seattle",
-      "count": 803
+      "count": 801
     },
     {
       "name": "Redmond",
-      "count": 215
+      "count": 214
     },
     {
       "name": "New York",
@@ -24,19 +24,19 @@
     },
     {
       "name": "Arlington",
-      "count": 150
+      "count": 148
     },
     {
       "name": "Austin",
-      "count": 147
+      "count": 148
     },
     {
       "name": "Bellevue",
-      "count": 138
+      "count": 136
     },
     {
       "name": "Cupertino",
-      "count": 119
+      "count": 121
     },
     {
       "name": "Santa Clara",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Sunnyvale",
-      "count": 70
+      "count": 69
     },
     {
       "name": "North Reading",
@@ -156,7 +156,7 @@
     },
     {
       "name": "Raleigh",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Detroit",
@@ -222,7 +222,7 @@
   "cities": [
     {
       "name": "Seattle",
-      "total": 803,
+      "total": 801,
       "teams": [
         {
           "name": "aws",
@@ -234,7 +234,7 @@
         },
         {
           "name": "advertising",
-          "count": 39
+          "count": 37
         },
         {
           "name": "annapurna",
@@ -336,11 +336,11 @@
     },
     {
       "name": "Redmond",
-      "total": 215,
+      "total": 214,
       "teams": [
         {
           "name": "alexa-and-amazon-devices",
-          "count": 196
+          "count": 195
         },
         {
           "name": "aws",
@@ -408,11 +408,11 @@
     },
     {
       "name": "Arlington",
-      "total": 150,
+      "total": 148,
       "teams": [
         {
           "name": "aws",
-          "count": 104
+          "count": 102
         },
         {
           "name": "amazon-security",
@@ -462,11 +462,11 @@
     },
     {
       "name": "Austin",
-      "total": 147,
+      "total": 148,
       "teams": [
         {
           "name": "annapurna",
-          "count": 54
+          "count": 55
         },
         {
           "name": "aws",
@@ -520,15 +520,15 @@
     },
     {
       "name": "Bellevue",
-      "total": 138,
+      "total": 136,
       "teams": [
         {
           "name": "aws",
-          "count": 49
+          "count": 48
         },
         {
           "name": "operations",
-          "count": 27
+          "count": 26
         },
         {
           "name": "alexa-and-amazon-devices",
@@ -594,11 +594,11 @@
     },
     {
       "name": "Cupertino",
-      "total": 119,
+      "total": 121,
       "teams": [
         {
           "name": "annapurna",
-          "count": 81
+          "count": 83
         },
         {
           "name": "aws",
@@ -694,7 +694,7 @@
     },
     {
       "name": "Sunnyvale",
-      "total": 70,
+      "total": 69,
       "teams": [
         {
           "name": "alexa-and-amazon-devices",
@@ -706,7 +706,7 @@
         },
         {
           "name": "ecp",
-          "count": 7
+          "count": 6
         },
         {
           "name": "amazon-artificial-general-intelligence",
@@ -1114,11 +1114,11 @@
     },
     {
       "name": "Raleigh",
-      "total": 6,
+      "total": 5,
       "teams": [
         {
           "name": "aws",
-          "count": 6
+          "count": 5
         }
       ]
     },
