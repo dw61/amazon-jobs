@@ -1,62 +1,62 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-11-11T21:55:54.872Z",
-  "fetchedAt": "2026-11-11T21:56:01.513Z",
+  "startedAt": "2026-11-12T21:50:18.050Z",
+  "fetchedAt": "2026-11-12T21:50:27.594Z",
   "source": "https://www.amazon.jobs/en/search",
   "filters": {
     "country": "USA",
     "category": "software-development",
     "schedule": "Full-Time"
   },
-  "total": 1751,
+  "total": 1769,
   "cityCounts": [
     {
       "name": "Seattle",
-      "count": 813
+      "count": 817
     },
     {
       "name": "Redmond",
-      "count": 235
+      "count": 244
     },
     {
       "name": "New York",
-      "count": 178
-    },
-    {
-      "name": "Austin",
-      "count": 155
+      "count": 182
     },
     {
       "name": "Arlington",
       "count": 150
     },
     {
+      "name": "Austin",
+      "count": 148
+    },
+    {
       "name": "Bellevue",
-      "count": 137
+      "count": 141
     },
     {
       "name": "Cupertino",
-      "count": 123
+      "count": 122
     },
     {
       "name": "Santa Clara",
-      "count": 99
+      "count": 97
     },
     {
       "name": "Herndon",
-      "count": 90
-    },
-    {
-      "name": "Boston",
-      "count": 70
+      "count": 91
     },
     {
       "name": "Sunnyvale",
-      "count": 70
+      "count": 71
+    },
+    {
+      "name": "Boston",
+      "count": 69
     },
     {
       "name": "Denver",
-      "count": 61
+      "count": 60
     },
     {
       "name": "San Diego",
@@ -68,7 +68,7 @@
     },
     {
       "name": "East Palo Alto",
-      "count": 36
+      "count": 37
     },
     {
       "name": "San Francisco",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Dallas",
-      "count": 23
+      "count": 24
     },
     {
       "name": "Westborough",
@@ -96,7 +96,7 @@
     },
     {
       "name": "Palo Alto",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Irvine",
@@ -131,10 +131,6 @@
       "count": 8
     },
     {
-      "name": "Santa Monica",
-      "count": 8
-    },
-    {
       "name": "Hawthorne",
       "count": 7
     },
@@ -147,15 +143,19 @@
       "count": 7
     },
     {
+      "name": "Santa Monica",
+      "count": 7
+    },
+    {
+      "name": "Tempe",
+      "count": 7
+    },
+    {
       "name": "Atlanta",
       "count": 6
     },
     {
       "name": "Portland",
-      "count": 6
-    },
-    {
-      "name": "Tempe",
       "count": 6
     },
     {
@@ -218,23 +218,23 @@
   "cities": [
     {
       "name": "Seattle",
-      "total": 813,
+      "total": 817,
       "teams": [
         {
           "name": "aws",
-          "count": 515
+          "count": 518
         },
         {
           "name": "advertising",
-          "count": 46
+          "count": 50
         },
         {
           "name": "amazon-security",
-          "count": 45
+          "count": 42
         },
         {
           "name": "ecp",
-          "count": 35
+          "count": 37
         },
         {
           "name": "annapurna",
@@ -254,11 +254,11 @@
         },
         {
           "name": "selling-partner-services",
-          "count": 12
+          "count": 13
         },
         {
           "name": "consumer_engagement",
-          "count": 11
+          "count": 10
         },
         {
           "name": "entertainment",
@@ -278,7 +278,7 @@
         },
         {
           "name": "customer-service",
-          "count": 7
+          "count": 6
         },
         {
           "name": "cx-and-business-trends",
@@ -295,10 +295,6 @@
         {
           "name": "kindlecontent",
           "count": 2
-        },
-        {
-          "name": "amazon-artificial-general-intelligence",
-          "count": 1
         },
         {
           "name": "amazon-business",
@@ -320,11 +316,11 @@
     },
     {
       "name": "Redmond",
-      "total": 235,
+      "total": 244,
       "teams": [
         {
           "name": "alexa-and-amazon-devices",
-          "count": 218
+          "count": 227
         },
         {
           "name": "studentprograms",
@@ -338,15 +334,15 @@
     },
     {
       "name": "New York",
-      "total": 178,
+      "total": 182,
       "teams": [
         {
           "name": "aws",
-          "count": 96
+          "count": 98
         },
         {
           "name": "advertising",
-          "count": 49
+          "count": 50
         },
         {
           "name": "subsidiaries",
@@ -361,12 +357,12 @@
           "count": 7
         },
         {
-          "name": "entertainment",
+          "name": "ecp",
           "count": 3
         },
         {
-          "name": "ecp",
-          "count": 2
+          "name": "entertainment",
+          "count": 3
         },
         {
           "name": "alexa-and-amazon-devices",
@@ -378,68 +374,6 @@
         },
         {
           "name": "studentprograms",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Austin",
-      "total": 155,
-      "teams": [
-        {
-          "name": "annapurna",
-          "count": 57
-        },
-        {
-          "name": "aws",
-          "count": 35
-        },
-        {
-          "name": "alexa-and-amazon-devices",
-          "count": 24
-        },
-        {
-          "name": "amazon-security",
-          "count": 19
-        },
-        {
-          "name": "studentprograms",
-          "count": 6
-        },
-        {
-          "name": "subsidiaries",
-          "count": 4
-        },
-        {
-          "name": "advertising",
-          "count": 3
-        },
-        {
-          "name": "customer-service",
-          "count": 1
-        },
-        {
-          "name": "ecp",
-          "count": 1
-        },
-        {
-          "name": "entertainment",
-          "count": 1
-        },
-        {
-          "name": "fulfillment-technology-and-robotics",
-          "count": 1
-        },
-        {
-          "name": "operations",
-          "count": 1
-        },
-        {
-          "name": "transportation-and-logistics",
-          "count": 1
-        },
-        {
-          "name": "worldwide-grocery-stores",
           "count": 1
         }
       ]
@@ -495,12 +429,70 @@
       ]
     },
     {
+      "name": "Austin",
+      "total": 148,
+      "teams": [
+        {
+          "name": "annapurna",
+          "count": 56
+        },
+        {
+          "name": "aws",
+          "count": 35
+        },
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 21
+        },
+        {
+          "name": "amazon-security",
+          "count": 17
+        },
+        {
+          "name": "studentprograms",
+          "count": 6
+        },
+        {
+          "name": "subsidiaries",
+          "count": 4
+        },
+        {
+          "name": "advertising",
+          "count": 3
+        },
+        {
+          "name": "ecp",
+          "count": 1
+        },
+        {
+          "name": "entertainment",
+          "count": 1
+        },
+        {
+          "name": "fulfillment-technology-and-robotics",
+          "count": 1
+        },
+        {
+          "name": "operations",
+          "count": 1
+        },
+        {
+          "name": "transportation-and-logistics",
+          "count": 1
+        },
+        {
+          "name": "worldwide-grocery-stores",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Bellevue",
-      "total": 137,
+      "total": 141,
       "teams": [
         {
           "name": "aws",
-          "count": 57
+          "count": 59
         },
         {
           "name": "operations",
@@ -515,16 +507,16 @@
           "count": 8
         },
         {
+          "name": "amazon-artificial-general-intelligence",
+          "count": 6
+        },
+        {
           "name": "fulfillment-and-operations",
           "count": 4
         },
         {
           "name": "selling-partner-services",
           "count": 4
-        },
-        {
-          "name": "amazon-artificial-general-intelligence",
-          "count": 3
         },
         {
           "name": "entertainment",
@@ -535,15 +527,15 @@
           "count": 3
         },
         {
-          "name": "pxt",
-          "count": 3
-        },
-        {
           "name": "studentprograms",
           "count": 3
         },
         {
           "name": "fulfillment-technology-and-robotics",
+          "count": 2
+        },
+        {
+          "name": "pxt",
           "count": 2
         },
         {
@@ -562,7 +554,7 @@
     },
     {
       "name": "Cupertino",
-      "total": 123,
+      "total": 122,
       "teams": [
         {
           "name": "annapurna",
@@ -570,7 +562,7 @@
         },
         {
           "name": "aws",
-          "count": 34
+          "count": 33
         },
         {
           "name": "studentprograms",
@@ -580,11 +572,11 @@
     },
     {
       "name": "Santa Clara",
-      "total": 99,
+      "total": 97,
       "teams": [
         {
           "name": "aws",
-          "count": 95
+          "count": 93
         },
         {
           "name": "studentprograms",
@@ -598,11 +590,11 @@
     },
     {
       "name": "Herndon",
-      "total": 90,
+      "total": 91,
       "teams": [
         {
           "name": "aws",
-          "count": 64
+          "count": 65
         },
         {
           "name": "amazon-security",
@@ -615,8 +607,46 @@
       ]
     },
     {
+      "name": "Sunnyvale",
+      "total": 71,
+      "teams": [
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 42
+        },
+        {
+          "name": "aws",
+          "count": 10
+        },
+        {
+          "name": "ecp",
+          "count": 6
+        },
+        {
+          "name": "amazon-artificial-general-intelligence",
+          "count": 5
+        },
+        {
+          "name": "studentprograms",
+          "count": 3
+        },
+        {
+          "name": "advertising",
+          "count": 2
+        },
+        {
+          "name": "subsidiaries",
+          "count": 2
+        },
+        {
+          "name": "entertainment",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Boston",
-      "total": 70,
+      "total": 69,
       "teams": [
         {
           "name": "aws",
@@ -624,7 +654,7 @@
         },
         {
           "name": "amazon-artificial-general-intelligence",
-          "count": 5
+          "count": 4
         },
         {
           "name": "studentprograms",
@@ -649,50 +679,12 @@
       ]
     },
     {
-      "name": "Sunnyvale",
-      "total": 70,
-      "teams": [
-        {
-          "name": "alexa-and-amazon-devices",
-          "count": 40
-        },
-        {
-          "name": "aws",
-          "count": 10
-        },
-        {
-          "name": "amazon-artificial-general-intelligence",
-          "count": 6
-        },
-        {
-          "name": "ecp",
-          "count": 6
-        },
-        {
-          "name": "studentprograms",
-          "count": 3
-        },
-        {
-          "name": "advertising",
-          "count": 2
-        },
-        {
-          "name": "subsidiaries",
-          "count": 2
-        },
-        {
-          "name": "entertainment",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Denver",
-      "total": 61,
+      "total": 60,
       "teams": [
         {
           "name": "aws",
-          "count": 49
+          "count": 48
         },
         {
           "name": "studentprograms",
@@ -746,11 +738,11 @@
     },
     {
       "name": "East Palo Alto",
-      "total": 36,
+      "total": 37,
       "teams": [
         {
           "name": "aws",
-          "count": 34
+          "count": 35
         },
         {
           "name": "studentprograms",
@@ -782,11 +774,15 @@
     },
     {
       "name": "Dallas",
-      "total": 23,
+      "total": 24,
       "teams": [
         {
           "name": "aws",
           "count": 22
+        },
+        {
+          "name": "finance",
+          "count": 1
         },
         {
           "name": "pxt",
@@ -856,11 +852,11 @@
     },
     {
       "name": "Palo Alto",
-      "total": 14,
+      "total": 15,
       "teams": [
         {
           "name": "retail",
-          "count": 7
+          "count": 8
         },
         {
           "name": "advertising",
@@ -981,20 +977,6 @@
       ]
     },
     {
-      "name": "Santa Monica",
-      "total": 8,
-      "teams": [
-        {
-          "name": "aws",
-          "count": 5
-        },
-        {
-          "name": "advertising",
-          "count": 3
-        }
-      ]
-    },
-    {
       "name": "Hawthorne",
       "total": 7,
       "teams": [
@@ -1029,6 +1011,38 @@
       ]
     },
     {
+      "name": "Santa Monica",
+      "total": 7,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 4
+        },
+        {
+          "name": "advertising",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Tempe",
+      "total": 7,
+      "teams": [
+        {
+          "name": "selling-partner-services",
+          "count": 5
+        },
+        {
+          "name": "operations",
+          "count": 1
+        },
+        {
+          "name": "seller-services",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Atlanta",
       "total": 6,
       "teams": [
@@ -1045,24 +1059,6 @@
         {
           "name": "aws",
           "count": 6
-        }
-      ]
-    },
-    {
-      "name": "Tempe",
-      "total": 6,
-      "teams": [
-        {
-          "name": "selling-partner-services",
-          "count": 4
-        },
-        {
-          "name": "operations",
-          "count": 1
-        },
-        {
-          "name": "seller-services",
-          "count": 1
         }
       ]
     },
