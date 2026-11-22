@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-11-21T20:54:08.333Z",
-  "fetchedAt": "2026-11-21T20:54:12.615Z",
+  "startedAt": "2026-11-22T21:02:16.450Z",
+  "fetchedAt": "2026-11-22T21:02:22.870Z",
   "source": "https://www.amazon.jobs/en/search",
   "filters": {
     "country": "USA",
     "category": "software-development",
     "schedule": "Full-Time"
   },
-  "total": 1781,
+  "total": 1769,
   "cityCounts": [
     {
       "name": "Seattle",
-      "count": 821
+      "count": 815
     },
     {
       "name": "Redmond",
-      "count": 244
+      "count": 241
     },
     {
       "name": "New York",
-      "count": 185
+      "count": 184
     },
     {
       "name": "Arlington",
-      "count": 149
+      "count": 148
     },
     {
       "name": "Austin",
@@ -36,15 +36,15 @@
     },
     {
       "name": "Cupertino",
-      "count": 110
+      "count": 109
     },
     {
       "name": "Santa Clara",
-      "count": 97
+      "count": 96
     },
     {
       "name": "Herndon",
-      "count": 88
+      "count": 89
     },
     {
       "name": "Sunnyvale",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Dallas",
-      "count": 20
+      "count": 19
     },
     {
       "name": "Jessup",
@@ -218,27 +218,27 @@
   "cities": [
     {
       "name": "Seattle",
-      "total": 821,
+      "total": 815,
       "teams": [
         {
           "name": "aws",
-          "count": 520
+          "count": 517
         },
         {
           "name": "advertising",
-          "count": 48
+          "count": 49
         },
         {
           "name": "amazon-security",
           "count": 42
         },
         {
-          "name": "annapurna",
+          "name": "ecp",
           "count": 34
         },
         {
-          "name": "ecp",
-          "count": 34
+          "name": "annapurna",
+          "count": 32
         },
         {
           "name": "retail",
@@ -265,20 +265,20 @@
           "count": 11
         },
         {
-          "name": "selling-partner-services",
-          "count": 11
-        },
-        {
           "name": "finance",
           "count": 10
         },
         {
-          "name": "consumer_engagement",
-          "count": 7
+          "name": "selling-partner-services",
+          "count": 10
         },
         {
           "name": "pxt",
           "count": 7
+        },
+        {
+          "name": "consumer_engagement",
+          "count": 6
         },
         {
           "name": "cx-and-business-trends",
@@ -320,11 +320,11 @@
     },
     {
       "name": "Redmond",
-      "total": 244,
+      "total": 241,
       "teams": [
         {
           "name": "alexa-and-amazon-devices",
-          "count": 228
+          "count": 225
         },
         {
           "name": "aws",
@@ -338,7 +338,7 @@
     },
     {
       "name": "New York",
-      "total": 185,
+      "total": 184,
       "teams": [
         {
           "name": "aws",
@@ -346,7 +346,7 @@
         },
         {
           "name": "advertising",
-          "count": 46
+          "count": 45
         },
         {
           "name": "subsidiaries",
@@ -384,7 +384,7 @@
     },
     {
       "name": "Arlington",
-      "total": 149,
+      "total": 148,
       "teams": [
         {
           "name": "aws",
@@ -392,7 +392,7 @@
         },
         {
           "name": "amazon-security",
-          "count": 12
+          "count": 11
         },
         {
           "name": "studentprograms",
@@ -554,11 +554,11 @@
     },
     {
       "name": "Cupertino",
-      "total": 110,
+      "total": 109,
       "teams": [
         {
           "name": "annapurna",
-          "count": 77
+          "count": 76
         },
         {
           "name": "aws",
@@ -572,11 +572,11 @@
     },
     {
       "name": "Santa Clara",
-      "total": 97,
+      "total": 96,
       "teams": [
         {
           "name": "aws",
-          "count": 94
+          "count": 93
         },
         {
           "name": "studentprograms",
@@ -590,7 +590,7 @@
     },
     {
       "name": "Herndon",
-      "total": 88,
+      "total": 89,
       "teams": [
         {
           "name": "aws",
@@ -598,7 +598,7 @@
         },
         {
           "name": "amazon-security",
-          "count": 21
+          "count": 22
         },
         {
           "name": "studentprograms",
@@ -786,11 +786,11 @@
     },
     {
       "name": "Dallas",
-      "total": 20,
+      "total": 19,
       "teams": [
         {
           "name": "aws",
-          "count": 18
+          "count": 17
         },
         {
           "name": "finance",
