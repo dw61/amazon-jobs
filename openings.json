@@ -1,62 +1,62 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-11-24T02:12:05.650Z",
-  "fetchedAt": "2026-11-24T02:12:10.647Z",
+  "startedAt": "2026-11-24T23:52:55.804Z",
+  "fetchedAt": "2026-11-24T23:53:01.288Z",
   "source": "https://www.amazon.jobs/en/search",
   "filters": {
     "country": "USA",
     "category": "software-development",
     "schedule": "Full-Time"
   },
-  "total": 1773,
+  "total": 1794,
   "cityCounts": [
     {
       "name": "Seattle",
-      "count": 818
+      "count": 827
     },
     {
       "name": "Redmond",
-      "count": 244
+      "count": 250
     },
     {
       "name": "New York",
-      "count": 184
+      "count": 182
     },
     {
       "name": "Austin",
-      "count": 151
+      "count": 156
     },
     {
       "name": "Bellevue",
-      "count": 149
+      "count": 150
     },
     {
       "name": "Arlington",
-      "count": 148
+      "count": 149
     },
     {
       "name": "Cupertino",
-      "count": 110
+      "count": 115
     },
     {
       "name": "Santa Clara",
-      "count": 95
+      "count": 93
     },
     {
       "name": "Herndon",
-      "count": 88
+      "count": 89
     },
     {
       "name": "Sunnyvale",
-      "count": 75
+      "count": 73
     },
     {
       "name": "Boston",
-      "count": 72
+      "count": 71
     },
     {
       "name": "Denver",
-      "count": 55
+      "count": 56
     },
     {
       "name": "North Reading",
@@ -64,11 +64,11 @@
     },
     {
       "name": "San Diego",
-      "count": 46
+      "count": 45
     },
     {
       "name": "East Palo Alto",
-      "count": 42
+      "count": 41
     },
     {
       "name": "San Francisco",
@@ -76,7 +76,11 @@
     },
     {
       "name": "Dallas",
-      "count": 19
+      "count": 18
+    },
+    {
+      "name": "Irvine",
+      "count": 18
     },
     {
       "name": "Jessup",
@@ -89,10 +93,6 @@
     {
       "name": "Minneapolis",
       "count": 17
-    },
-    {
-      "name": "Irvine",
-      "count": 16
     },
     {
       "name": "Palo Alto",
@@ -111,15 +111,15 @@
       "count": 11
     },
     {
-      "name": "Jersey City",
-      "count": 9
-    },
-    {
       "name": "Brooklyn",
       "count": 8
     },
     {
       "name": "Carle Place",
+      "count": 8
+    },
+    {
+      "name": "Jersey City",
       "count": 8
     },
     {
@@ -167,6 +167,10 @@
       "count": 4
     },
     {
+      "name": "Nashville",
+      "count": 4
+    },
+    {
       "name": "Annapolis Junction",
       "count": 3
     },
@@ -175,7 +179,7 @@
       "count": 3
     },
     {
-      "name": "Nashville",
+      "name": "El Segundo",
       "count": 3
     },
     {
@@ -185,10 +189,6 @@
     {
       "name": "Wilmington",
       "count": 3
-    },
-    {
-      "name": "El Segundo",
-      "count": 2
     },
     {
       "name": "Madison",
@@ -218,11 +218,11 @@
   "cities": [
     {
       "name": "Seattle",
-      "total": 818,
+      "total": 827,
       "teams": [
         {
           "name": "aws",
-          "count": 515
+          "count": 521
         },
         {
           "name": "advertising",
@@ -249,16 +249,16 @@
           "count": 16
         },
         {
+          "name": "customer-service",
+          "count": 14
+        },
+        {
           "name": "studentprograms",
           "count": 14
         },
         {
           "name": "entertainment",
           "count": 13
-        },
-        {
-          "name": "customer-service",
-          "count": 12
         },
         {
           "name": "alexa-and-amazon-devices",
@@ -274,7 +274,7 @@
         },
         {
           "name": "pxt",
-          "count": 7
+          "count": 8
         },
         {
           "name": "consumer_engagement",
@@ -324,33 +324,33 @@
     },
     {
       "name": "Redmond",
-      "total": 244,
+      "total": 250,
       "teams": [
         {
           "name": "alexa-and-amazon-devices",
-          "count": 229
+          "count": 234
+        },
+        {
+          "name": "aws",
+          "count": 8
         },
         {
           "name": "studentprograms",
           "count": 8
-        },
-        {
-          "name": "aws",
-          "count": 7
         }
       ]
     },
     {
       "name": "New York",
-      "total": 184,
+      "total": 182,
       "teams": [
         {
           "name": "aws",
-          "count": 106
+          "count": 105
         },
         {
           "name": "advertising",
-          "count": 44
+          "count": 43
         },
         {
           "name": "subsidiaries",
@@ -392,11 +392,11 @@
     },
     {
       "name": "Austin",
-      "total": 151,
+      "total": 156,
       "teams": [
         {
           "name": "annapurna",
-          "count": 52
+          "count": 57
         },
         {
           "name": "aws",
@@ -442,7 +442,7 @@
     },
     {
       "name": "Bellevue",
-      "total": 149,
+      "total": 150,
       "teams": [
         {
           "name": "aws",
@@ -454,7 +454,7 @@
         },
         {
           "name": "alexa-and-amazon-devices",
-          "count": 20
+          "count": 21
         },
         {
           "name": "amazon-artificial-general-intelligence",
@@ -512,15 +512,15 @@
     },
     {
       "name": "Arlington",
-      "total": 148,
+      "total": 149,
       "teams": [
         {
           "name": "aws",
-          "count": 109
+          "count": 111
         },
         {
           "name": "amazon-security",
-          "count": 12
+          "count": 11
         },
         {
           "name": "studentprograms",
@@ -562,11 +562,11 @@
     },
     {
       "name": "Cupertino",
-      "total": 110,
+      "total": 115,
       "teams": [
         {
           "name": "annapurna",
-          "count": 77
+          "count": 82
         },
         {
           "name": "aws",
@@ -580,11 +580,11 @@
     },
     {
       "name": "Santa Clara",
-      "total": 95,
+      "total": 93,
       "teams": [
         {
           "name": "aws",
-          "count": 92
+          "count": 90
         },
         {
           "name": "studentprograms",
@@ -598,11 +598,11 @@
     },
     {
       "name": "Herndon",
-      "total": 88,
+      "total": 89,
       "teams": [
         {
           "name": "aws",
-          "count": 65
+          "count": 66
         },
         {
           "name": "amazon-security",
@@ -616,11 +616,11 @@
     },
     {
       "name": "Sunnyvale",
-      "total": 75,
+      "total": 73,
       "teams": [
         {
           "name": "alexa-and-amazon-devices",
-          "count": 45
+          "count": 43
         },
         {
           "name": "aws",
@@ -658,7 +658,7 @@
     },
     {
       "name": "Boston",
-      "total": 72,
+      "total": 71,
       "teams": [
         {
           "name": "aws",
@@ -671,10 +671,6 @@
         {
           "name": "studentprograms",
           "count": 5
-        },
-        {
-          "name": "alexa-and-amazon-devices",
-          "count": 1
         },
         {
           "name": "amazon-business",
@@ -692,11 +688,11 @@
     },
     {
       "name": "Denver",
-      "total": 55,
+      "total": 56,
       "teams": [
         {
           "name": "aws",
-          "count": 43
+          "count": 44
         },
         {
           "name": "studentprograms",
@@ -728,11 +724,11 @@
     },
     {
       "name": "San Diego",
-      "total": 46,
+      "total": 45,
       "teams": [
         {
           "name": "annapurna",
-          "count": 19
+          "count": 18
         },
         {
           "name": "alexa-and-amazon-devices",
@@ -754,11 +750,11 @@
     },
     {
       "name": "East Palo Alto",
-      "total": 42,
+      "total": 41,
       "teams": [
         {
           "name": "aws",
-          "count": 40
+          "count": 39
         },
         {
           "name": "studentprograms",
@@ -794,11 +790,11 @@
     },
     {
       "name": "Dallas",
-      "total": 19,
+      "total": 18,
       "teams": [
         {
           "name": "aws",
-          "count": 17
+          "count": 16
         },
         {
           "name": "finance",
@@ -806,6 +802,28 @@
         },
         {
           "name": "pxt",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Irvine",
+      "total": 18,
+      "teams": [
+        {
+          "name": "alexa-and-amazon-devices",
+          "count": 14
+        },
+        {
+          "name": "aws",
+          "count": 2
+        },
+        {
+          "name": "studentprograms",
+          "count": 1
+        },
+        {
+          "name": "subsidiaries",
           "count": 1
         }
       ]
@@ -856,28 +874,6 @@
         },
         {
           "name": "operations",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Irvine",
-      "total": 16,
-      "teams": [
-        {
-          "name": "alexa-and-amazon-devices",
-          "count": 12
-        },
-        {
-          "name": "aws",
-          "count": 2
-        },
-        {
-          "name": "studentprograms",
-          "count": 1
-        },
-        {
-          "name": "subsidiaries",
           "count": 1
         }
       ]
@@ -947,20 +943,6 @@
       ]
     },
     {
-      "name": "Jersey City",
-      "total": 9,
-      "teams": [
-        {
-          "name": "aws",
-          "count": 8
-        },
-        {
-          "name": "finance",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Brooklyn",
       "total": 8,
       "teams": [
@@ -977,6 +959,20 @@
         {
           "name": "aws",
           "count": 8
+        }
+      ]
+    },
+    {
+      "name": "Jersey City",
+      "total": 8,
+      "teams": [
+        {
+          "name": "aws",
+          "count": 7
+        },
+        {
+          "name": "finance",
+          "count": 1
         }
       ]
     },
@@ -1111,6 +1107,20 @@
       ]
     },
     {
+      "name": "Nashville",
+      "total": 4,
+      "teams": [
+        {
+          "name": "subsidiaries",
+          "count": 3
+        },
+        {
+          "name": "studentprograms",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Annapolis Junction",
       "total": 3,
       "teams": [
@@ -1135,16 +1145,12 @@
       ]
     },
     {
-      "name": "Nashville",
+      "name": "El Segundo",
       "total": 3,
       "teams": [
         {
-          "name": "subsidiaries",
-          "count": 2
-        },
-        {
-          "name": "studentprograms",
-          "count": 1
+          "name": "alexa-and-amazon-devices",
+          "count": 3
         }
       ]
     },
@@ -1169,16 +1175,6 @@
         {
           "name": "subsidiaries",
           "count": 3
-        }
-      ]
-    },
-    {
-      "name": "El Segundo",
-      "total": 2,
-      "teams": [
-        {
-          "name": "alexa-and-amazon-devices",
-          "count": 2
         }
       ]
     },
