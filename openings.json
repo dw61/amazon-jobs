@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-11-26T23:50:08.139Z",
-  "fetchedAt": "2026-11-26T23:50:13.608Z",
+  "startedAt": "2026-11-27T23:27:05.409Z",
+  "fetchedAt": "2026-11-27T23:27:10.541Z",
   "source": "https://www.amazon.jobs/en/search",
   "filters": {
     "country": "USA",
     "category": "software-development",
     "schedule": "Full-Time"
   },
-  "total": 1763,
+  "total": 1754,
   "cityCounts": [
     {
       "name": "Seattle",
-      "count": 813
+      "count": 811
     },
     {
       "name": "Redmond",
-      "count": 245
+      "count": 244
     },
     {
       "name": "New York",
-      "count": 177
+      "count": 174
     },
     {
       "name": "Austin",
@@ -36,11 +36,11 @@
     },
     {
       "name": "Cupertino",
-      "count": 115
+      "count": 114
     },
     {
       "name": "Santa Clara",
-      "count": 93
+      "count": 92
     },
     {
       "name": "Herndon",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Boston",
-      "count": 68
+      "count": 67
     },
     {
       "name": "Denver",
@@ -68,7 +68,7 @@
     },
     {
       "name": "East Palo Alto",
-      "count": 39
+      "count": 38
     },
     {
       "name": "San Francisco",
@@ -218,11 +218,11 @@
   "cities": [
     {
       "name": "Seattle",
-      "total": 813,
+      "total": 811,
       "teams": [
         {
           "name": "aws",
-          "count": 517
+          "count": 515
         },
         {
           "name": "advertising",
@@ -230,7 +230,7 @@
         },
         {
           "name": "amazon-security",
-          "count": 41
+          "count": 42
         },
         {
           "name": "ecp",
@@ -238,7 +238,7 @@
         },
         {
           "name": "annapurna",
-          "count": 32
+          "count": 31
         },
         {
           "name": "retail",
@@ -324,11 +324,11 @@
     },
     {
       "name": "Redmond",
-      "total": 245,
+      "total": 244,
       "teams": [
         {
           "name": "alexa-and-amazon-devices",
-          "count": 230
+          "count": 229
         },
         {
           "name": "studentprograms",
@@ -342,15 +342,15 @@
     },
     {
       "name": "New York",
-      "total": 177,
+      "total": 174,
       "teams": [
         {
           "name": "aws",
-          "count": 102
+          "count": 101
         },
         {
           "name": "advertising",
-          "count": 42
+          "count": 40
         },
         {
           "name": "subsidiaries",
@@ -446,11 +446,11 @@
       "teams": [
         {
           "name": "aws",
-          "count": 110
+          "count": 109
         },
         {
           "name": "amazon-security",
-          "count": 10
+          "count": 11
         },
         {
           "name": "studentprograms",
@@ -562,11 +562,11 @@
     },
     {
       "name": "Cupertino",
-      "total": 115,
+      "total": 114,
       "teams": [
         {
           "name": "annapurna",
-          "count": 81
+          "count": 80
         },
         {
           "name": "aws",
@@ -580,11 +580,11 @@
     },
     {
       "name": "Santa Clara",
-      "total": 93,
+      "total": 92,
       "teams": [
         {
           "name": "aws",
-          "count": 90
+          "count": 89
         },
         {
           "name": "studentprograms",
@@ -602,11 +602,11 @@
       "teams": [
         {
           "name": "aws",
-          "count": 64
+          "count": 63
         },
         {
           "name": "amazon-security",
-          "count": 24
+          "count": 25
         },
         {
           "name": "studentprograms",
@@ -658,11 +658,11 @@
     },
     {
       "name": "Boston",
-      "total": 68,
+      "total": 67,
       "teams": [
         {
           "name": "aws",
-          "count": 55
+          "count": 54
         },
         {
           "name": "amazon-artificial-general-intelligence",
@@ -750,11 +750,11 @@
     },
     {
       "name": "East Palo Alto",
-      "total": 39,
+      "total": 38,
       "teams": [
         {
           "name": "aws",
-          "count": 37
+          "count": 36
         },
         {
           "name": "studentprograms",
